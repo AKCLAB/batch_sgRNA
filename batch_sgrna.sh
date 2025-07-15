@@ -49,8 +49,8 @@ awk -v size_chr="$size_chr" -v size_target="$size_target" 'BEGIN{OFS="\t"} {
 
 echo "Extract fasta of end position of ncRNA"
 awk -v size_chr="$size_chr" -v size_target="$size_target" 'BEGIN{OFS="\t"} {
-    final_start = $3 - size_chr;
-    final_end = $3 + size_target;
+    final_start = $3 - size_target;
+    final_end = $3 + size_chr;
     print $1, final_start, final_end, $4, $5, $6
 }' "$bedfile" > "${outname}_final.bed"
 
