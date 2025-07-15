@@ -1,0 +1,73 @@
+Input:	TATCCACATACTGCAATGTTGCCGAAGAAGGAGTAATGCCGGAAAATGTCCTGTTGTTCTGTAGTTTTATTCGTCTTTTTATGCATGCACCTTCACTGATCTGTTGCTTTCTGTTCTGTAGATATATATGATATATATATATATATATAT
+PAM:	NGG
+Target site length:	20
+Target site 5' limitation:	NN
+Target site 3' limitation:	NN
+Core length:	12
+Core MM:	2
+Total MM:	4
+
+T1	GAATAAAACTACAGAACAACAGG	1000	CRISPRater score	0.40247299000000003
+Oligo adding fwd	TAgGAATAAAACTACAGAACAAC
+Oligo adding rev	AAACGTTGTTCTGTAGTTTTATT
+Oligo substituting fwd	TAGgATAAAACTACAGAACAAC
+Oligo substituting rev	AAACGTTGTTCTGTAGTTTTAT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_05_v2_pilon	8372	8394	-	0	GAATAAAACTACAGAACAAC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+
+T2	CAGAACAACAGGACATTTTCCGG	1000	CRISPRater score	0.5413571100000001
+Oligo adding fwd	TAggCAGAACAACAGGACATTTTC
+Oligo adding rev	AAACGAAAATGTCCTGTTGTTCTG
+Oligo substituting fwd	TAggGAACAACAGGACATTTTC
+Oligo substituting rev	AAACGAAAATGTCCTGTTGTTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_05_v2_pilon	8361	8383	-	0	CAGAACAACAGGACATTTTC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+
+T3	TTCGGCAACATTGCAGTATGTGG	1000	CRISPRater score	0.660668755
+Oligo adding fwd	TAggTTCGGCAACATTGCAGTATG
+Oligo adding rev	AAACCATACTGCAATGTTGCCGAA
+Oligo substituting fwd	TAggCGGCAACATTGCAGTATG
+Oligo substituting rev	AAACCATACTGCAATGTTGCCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_05_v2_pilon	8326	8348	-	0	TTCGGCAACATTGCAGTATG	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+
+T4	AGAAAGCAACAGATCAGTGAAGG	295	CRISPRater score	0.6886809500000001
+Oligo adding fwd	TAggAGAAAGCAACAGATCAGTGA
+Oligo adding rev	AAACTCACTGATCTGTTGCTTTCT
+Oligo substituting fwd	TAggAAAGCAACAGATCAGTGA
+Oligo substituting rev	AAACTCACTGATCTGTTGCTTT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_05_v2_pilon	8412	8434	-	0	AGAAAGCAACAGATCAGTGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_25_v2_pilon	611102	611124	+	4	GGAAAGAAACAGAGCAATGA	AGG	-|||||-|[|||||-||-|||]PAM	NA	Intergenic	NA	NA
+
+T5	TGCCGAAGAAGGAGTAATGCCGG	209	CRISPRater score	0.683547385
+Oligo adding fwd	TAggTGCCGAAGAAGGAGTAATGC
+Oligo adding rev	AAACGCATTACTCCTTCTTCGGCA
+Oligo substituting fwd	TAggCCGAAGAAGGAGTAATGC
+Oligo substituting rev	AAACGCATTACTCCTTCTTCGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_05_v2_pilon	8342	8364	+	0	TGCCGAAGAAGGAGTAATGC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	1736386	1736408	-	3	GTCCGAAGAAGGTGTAATGC	GGG	--||||||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	276656	276678	+	4	TGGAGAAGAGGGAGTGATGC	TGG	||--||||[|-|||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_35_v2_pilon	2508655	2508677	+	3	TGCCGATGAAGGAGTCTTGC	AGG	||||||-|[|||||||--|||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	37814	37836	-	4	TACCCAAGAAGGACTAATGA	GGG	|-||-|||[|||||-|||||-]PAM	NA	Intergenic	NA	NA
+
+T6	TACTGCAATGTTGCCGAAGAAGG	48	CRISPRater score	0.61096899
+Oligo adding fwd	TAggTACTGCAATGTTGCCGAAGA
+Oligo adding rev	AAACTCTTCGGCAACATTGCAGTA
+Oligo substituting fwd	TAggCTGCAATGTTGCCGAAGA
+Oligo substituting rev	AAACTCTTCGGCAACATTGCAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_05_v2_pilon	8331	8353	+	0	TACTGCAATGTTGCCGAAGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	310493	310515	-	4	TGCTGCAGAGGTGCCGAAGA	TGG	|-|||||-[-|-|||||||||]PAM	NA	Intergenic	NA	NA
+
+T7	TTCCGGCATTACTCCTTCTTCGG	0	CRISPRater score	0.744944925
+Oligo adding fwd	TAggTTCCGGCATTACTCCTTCTT
+Oligo adding rev	AAACAAGAAGGAGTAATGCCGGAA
+Oligo substituting fwd	TAggCCGGCATTACTCCTTCTT
+Oligo substituting rev	AAACAAGAAGGAGTAATGCCGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_05_v2_pilon	8344	8366	-	0	TTCCGGCATTACTCCTTCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	1736384	1736406	+	3	TGCCCGCATTACACCTTCTT	CGG	|-||-|||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	37812	37834	+	4	ATCCCTCATTAGTCCTTCTT	GGG	-|||--||[|||-||||||||]PAM	NA	Intergenic	NA	NA
+

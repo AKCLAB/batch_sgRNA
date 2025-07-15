@@ -1,0 +1,1244 @@
+Input:	GCCGAAAAAACAATCAAGCTACAAGCGCCAGCACCAGCGGGGCACGCAGGGACGCACGTACACGAATCCAGGCGGCGCTGCGGTCGCCAAATCTACAAAACGGAAGCTACAGAACCCGAAGGGATCGCTGGGAACAATCGGGAACCCATG
+PAM:	NGG
+Target site length:	20
+Target site 5' limitation:	NN
+Target site 3' limitation:	NN
+Core length:	12
+Core MM:	2
+Total MM:	4
+
+T1	TAGCTTCCGTTTTGTAGATTTGG	1000	CRISPRater score	0.58755567
+Oligo adding fwd	TAggTAGCTTCCGTTTTGTAGATT
+Oligo adding rev	AAACAATCTACAAAACGGAAGCTA
+Oligo substituting fwd	TAggGCTTCCGTTTTGTAGATT
+Oligo substituting rev	AAACAATCTACAAAACGGAAGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_05_v2_pilon	4837	4859	-	0	TAGCTTCCGTTTTGTAGATT	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+
+T2	CGGTCGCCAAATCTACAAAACGG	1000	CRISPRater score	0.497274465
+Oligo adding fwd	TAggCGGTCGCCAAATCTACAAAA
+Oligo adding rev	AAACTTTTGTAGATTTGGCGACCG
+Oligo substituting fwd	TAggGTCGCCAAATCTACAAAA
+Oligo substituting rev	AAACTTTTGTAGATTTGGCGAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_05_v2_pilon	4831	4853	+	0	CGGTCGCCAAATCTACAAAA	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+
+T3	AGGGATCGCTGGGAACAATCGGG	90	CRISPRater score	0.582573495
+Oligo adding fwd	TAggAGGGATCGCTGGGAACAATC
+Oligo adding rev	AAACGATTGTTCCCAGCGATCCCT
+Oligo substituting fwd	TAggGGATCGCTGGGAACAATC
+Oligo substituting rev	AAACGATTGTTCCCAGCGATCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_03_v2_pilon	1929	1951	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808977	808999	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11162	11184	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849222	849244	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1918	1940	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7833	7855	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4194	4216	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4468	4490	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1494	1516	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	2017	2039	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9572	9594	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3262	3284	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1216	1238	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2837	2859	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7949	7971	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3144	3166	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5708	5730	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2496	2518	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163342	163364	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4870	4892	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1534	1556	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2703	2725	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	2046	2068	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	293	315	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3186	3208	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	431	453	+	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633168	633190	-	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007322	2007344	-	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518316	1518338	-	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631534	631556	-	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591578	2591600	-	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	281931	281953	-	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320321	320343	-	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519925	1519947	-	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739109	739131	-	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399532	399554	-	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587065	587087	-	0	AGGGATCGCTGGGAACAATC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211099	211121	+	1	AGGGATCGCTTGGAACAATC	GGG	||||||||[||-|||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4347	4369	+	1	AGGGATCGCTGGGAGCAATC	GGG	||||||||[||||||-|||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277661	277683	+	1	AGGGATCGCTGGGAGCAATC	GGG	||||||||[||||||-|||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264199	264221	+	1	AGGGATCGCTGGGAGCAATC	GGG	||||||||[||||||-|||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20008	20030	-	1	AGGGATCGCTGGGAGCAATC	GGG	||||||||[||||||-|||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7283	7305	+	1	AGGGATCGCTGGGAACAACC	GGG	||||||||[||||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5870	5892	-	1	AGGGATCGCTGGGAACAACC	GGG	||||||||[||||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667060	667082	-	1	AGGGATCGCTGGGAACAACC	GGG	||||||||[||||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4958	4980	+	2	AGGGATCGTTGGGAACAACC	GGG	||||||||[-|||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_010_v2_pilon	1452	1474	+	2	AGGGATCGTTGGGAACAACC	GGG	||||||||[-|||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1539	1561	+	2	AGGGATCGTTGGGAACAACC	GGG	||||||||[-|||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671439	671461	-	2	AGGGATCGTTGGGAACAACC	GGG	||||||||[-|||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668315	668337	-	2	AGGGATCGTTGGGAACAACC	GGG	||||||||[-|||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737442	737464	-	2	AGGGATCGTTGGGAACAACC	GGG	||||||||[-|||||||||-|]PAM	NA	Intergenic	NA	NA
+
+T4	CGCACGTACACGAATCCAGGCGG	89	CRISPRater score	0.681580925
+Oligo adding fwd	TAggCGCACGTACACGAATCCAGG
+Oligo adding rev	AAACCCTGGATTCGTGTACGTGCG
+Oligo substituting fwd	TAggCACGTACACGAATCCAGG
+Oligo substituting rev	AAACCCTGGATTCGTGTACGTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_05_v2_pilon	4803	4825	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	1978	2000	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7765	7787	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1471	1493	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4126	4148	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4400	4422	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1426	1448	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1949	1971	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9504	9526	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3194	3216	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1148	1170	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7881	7903	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2428	2450	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2635	2657	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	225	247	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3118	3140	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	363	385	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1861	1883	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11094	11116	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1850	1872	+	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208084	1208106	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671509	671531	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667128	667150	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519993	1520015	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739177	739199	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399600	399622	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587133	587155	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633236	633258	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007390	2007412	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631602	631624	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591646	2591668	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	281999	282021	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16096	16118	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5938	5960	-	0	CGCACGTACACGAATCCAGG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7214	7236	+	1	CGCACGCACACGAATCCAGG	CGG	||||||-|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211031	211053	+	1	CGCACGCACACGAATCCAGG	CGG	||||||-|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5640	5662	+	1	CGCACGTACACGAATCCCGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3076	3098	+	1	CGCACGTACACGAATCCCGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849154	849176	+	1	CGCACGTACACGAATCCCGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4889	4911	+	1	CGCACGTACACGAATCCCGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163274	163296	+	1	CGCACGTACACGAATCCCGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808909	808931	+	1	CGCACGTACACGAATCCCGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2769	2791	+	1	CGCACGTACACGAATCCCGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1466	1488	+	1	CGCACGTACACGAATCCTGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737510	737532	-	1	CGCACGTACACGAATCCCGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320390	320412	-	1	CGCACGTACACGAATCCCGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668384	668406	-	1	CGCACGTACACGAATCCCGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518384	1518406	-	1	CGCACGTACACGAATCCCGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20076	20098	-	1	CGCACGTACACGAATCCTGG	CGG	||||||||[|||||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264127	264149	+	2	CGCACGTACGCGAATCCCGG	CGG	||||||||[|-|||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4275	4297	+	2	CGCACGTACGCGAATCCCGG	CGG	||||||||[|-|||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277589	277611	+	2	CGCACGTACGCGAATCCCGG	CGG	||||||||[|-|||||||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	429449	429471	+	3	CGGACGTACACGATTCCACG	TGG	||-|||||[|||||-||||-|]PAM	NA	Intergenic	NA	NA
+
+T5	AAGGGATCGCTGGGAACAATCGG	85	CRISPRater score	0.581515145
+Oligo adding fwd	TAggAAGGGATCGCTGGGAACAAT
+Oligo adding rev	AAACATTGTTCCCAGCGATCCCTT
+Oligo substituting fwd	TAggGGGATCGCTGGGAACAAT
+Oligo substituting rev	AAACATTGTTCCCAGCGATCCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_34_v2_pilon	808976	808998	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11161	11183	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849221	849243	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1917	1939	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7832	7854	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4193	4215	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4467	4489	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1493	1515	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	2016	2038	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9571	9593	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3261	3283	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1215	1237	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2836	2858	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7948	7970	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3143	3165	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5707	5729	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2495	2517	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163341	163363	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4869	4891	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1533	1555	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2702	2724	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	2045	2067	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	292	314	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3185	3207	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	430	452	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1928	1950	+	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591579	2591601	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	281932	281954	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320322	320344	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208016	1208038	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16029	16051	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519926	1519948	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739110	739132	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399533	399555	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587066	587088	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633169	633191	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007323	2007345	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518317	1518339	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631535	631557	-	0	AAGGGATCGCTGGGAACAAT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211098	211120	+	1	AAGGGATCGCTTGGAACAAT	CGG	||||||||[|||-||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264198	264220	+	1	AAGGGATCGCTGGGAGCAAT	CGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4346	4368	+	1	AAGGGATCGCTGGGAGCAAT	CGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277660	277682	+	1	AAGGGATCGCTGGGAGCAAT	CGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20009	20031	-	1	AAGGGATCGCTGGGAGCAAT	CGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7282	7304	+	1	AAGGGATCGCTGGGAACAAC	CGG	||||||||[|||||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5871	5893	-	1	AAGGGATCGCTGGGAACAAC	CGG	||||||||[|||||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667061	667083	-	1	AAGGGATCGCTGGGAACAAC	CGG	||||||||[|||||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1538	1560	+	2	AAGGGATCGTTGGGAACAAC	CGG	||||||||[|-|||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4957	4979	+	2	AAGGGATCGTTGGGAACAAC	CGG	||||||||[|-|||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_010_v2_pilon	1451	1473	+	2	AAGGGATCGTTGGGAACAAC	CGG	||||||||[|-|||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668316	668338	-	2	AAGGGATCGTTGGGAACAAC	CGG	||||||||[|-|||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737443	737465	-	2	AAGGGATCGTTGGGAACAAC	CGG	||||||||[|-|||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671440	671462	-	2	AAGGGATCGTTGGGAACAAC	CGG	||||||||[|-|||||||||-]PAM	NA	Intergenic	NA	NA
+
+T6	CTACAAGCGCCAGCACCAGCGGG	83	CRISPRater score	0.624736035
+Oligo adding fwd	TAggCTACAAGCGCCAGCACCAGC
+Oligo adding rev	AAACGCTGGTGCTGGCGCTTGTAG
+Oligo substituting fwd	TAggACAAGCGCCAGCACCAGC
+Oligo substituting rev	AAACGCTGGTGCTGGCGCTTGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_18_v2_pilon	7847	7869	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2394	2416	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2601	2623	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	191	213	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3084	3106	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	329	351	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1827	1849	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11060	11082	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1816	1838	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4769	4791	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	1944	1966	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2735	2757	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3042	3064	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1432	1454	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4241	4263	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7180	7202	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	210997	211019	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4092	4114	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1392	1414	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1915	1937	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9470	9492	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3160	3182	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1114	1136	+	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633270	633292	-	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631636	631658	-	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591680	2591702	-	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	282033	282055	-	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5972	5994	-	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20110	20132	-	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518418	1518440	-	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667162	667184	-	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739211	739233	-	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399634	399656	-	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587167	587189	-	0	CTACAAGCGCCAGCACCAGC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264093	264115	+	1	CTACCAGCGCCAGCACCAGC	GGG	||||-|||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4366	4388	+	1	CTACCAGCGCCAGCACCAGC	GGG	||||-|||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277555	277577	+	1	CTACCAGCGCCAGCACCAGC	GGG	||||-|||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007424	2007446	-	1	CTACCAGCGCCAGCACCAGC	GGG	||||-|||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1520027	1520049	-	1	CTACCAGCGCCAGCACCAGC	GGG	||||-|||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16130	16152	-	1	CTACAGGCGCCAGCACCAGC	GGG	|||||-||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163240	163262	+	1	CTACAAGCACCAGCACCAGC	GGG	||||||||[-|||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320424	320446	-	1	CTACAAGCACCAGCACCAGC	GGG	||||||||[-|||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	532745	532767	-	4	CCACCAGCAGCAGCACCAGC	AGG	|-||-|||[--||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_010_v2_pilon	1348	1370	+	3	CTACCAGCGCTAGCTCCAGC	GGG	||||-|||[||-|||-|||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1438	1460	+	3	CTACCAGCGCTAGCTCCAGC	GGG	||||-|||[||-|||-|||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208118	1208140	-	2	CTACAAGCGCCAGACCCAGC	GGG	||||||||[|||||--|||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	474879	474901	-	4	CAACCAGCGTCAGCATCAGC	AGG	|-||-|||[|-|||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	299199	299221	+	3	CTTCAAGCGCCAACAGCAGC	TGG	||-|||||[||||-||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	320818	320840	-	4	CTACCGGCGCCAGCGCAAGC	TGG	||||--||[||||||-|-|||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	219941	219963	+	4	CCACAGGCGCCAGGACCAGG	CGG	|-|||-||[|||||-|||||-]PAM	NA	Intergenic	NA	NA
+
+T7	TACAAGCGCCAGCACCAGCGGGG	72	CRISPRater score	0.7099356950000001
+Oligo adding fwd	TAggTACAAGCGCCAGCACCAGCG
+Oligo adding rev	AAACCGCTGGTGCTGGCGCTTGTA
+Oligo substituting fwd	TAggCAAGCGCCAGCACCAGCG
+Oligo substituting rev	AAACCGCTGGTGCTGGCGCTTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_09_v2_pilon	1817	1839	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4770	4792	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	1945	1967	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2736	2758	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3043	3065	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1433	1455	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4242	4264	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7181	7203	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	210998	211020	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4093	4115	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1393	1415	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1916	1938	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9471	9493	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3161	3183	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1115	1137	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7848	7870	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2395	2417	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2602	2624	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	192	214	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3085	3107	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	330	352	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1828	1850	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11061	11083	+	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	282032	282054	-	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5971	5993	-	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20109	20131	-	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518417	1518439	-	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667161	667183	-	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739210	739232	-	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399633	399655	-	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587166	587188	-	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633269	633291	-	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631635	631657	-	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591679	2591701	-	0	TACAAGCGCCAGCACCAGCG	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4367	4389	+	1	TACCAGCGCCAGCACCAGCG	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277556	277578	+	1	TACCAGCGCCAGCACCAGCG	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264094	264116	+	1	TACCAGCGCCAGCACCAGCG	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1520026	1520048	-	1	TACCAGCGCCAGCACCAGCG	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007423	2007445	-	1	TACCAGCGCCAGCACCAGCG	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16129	16151	-	1	TACAGGCGCCAGCACCAGCG	GGG	||||-|||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163241	163263	+	1	TACAAGCACCAGCACCAGCG	GGG	|||||||-[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320423	320445	-	1	TACAAGCACCAGCACCAGCG	GGG	|||||||-[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	192128	192150	-	4	CAGGAGCGGCAGCACCAGCG	CGG	-|--||||[-|||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	465393	465415	-	4	CTCAAGGGCCACCACCAGCG	CGG	--||||-|[|||-||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2220165	2220187	+	4	TGCAAGCACTGGCACCAGCG	CGG	|-|||||-[|--|||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_22_v2_pilon	457126	457148	+	4	GTCAAGCGCCACGACCAGCG	GGG	--||||||[|||--|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208117	1208139	-	2	TACAAGCGCCAGACCCAGCG	GGG	||||||||[||||--||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	769153	769175	-	4	TAGCAGCGGCAGCAGCAGCG	GGG	||--||||[-|||||-|||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_35_v2_pilon	1889409	1889431	-	4	CAGAAGCTCCAGCACGAGCG	AGG	-|-||||-[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_19_v2_pilon	44815	44837	+	3	CACAAGCACCAGCACCAGCA	TGG	-||||||-[|||||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	481356	481378	+	2	TACAAGCGCCAGCACCGTCG	TGG	||||||||[||||||||--||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	157508	157530	+	4	CACAAGCAACAGCACCAGCT	TGG	-||||||-[-||||||||||-]PAM	NA	Intergenic	NA	NA
+
+T8	ACAGAACCCGAAGGGATCGCTGG	72	CRISPRater score	0.6700681
+Oligo adding fwd	TAggACAGAACCCGAAGGGATCGC
+Oligo adding rev	AAACGCGATCCCTTCGGGTTCTGT
+Oligo substituting fwd	TAggAGAACCCGAAGGGATCGC
+Oligo substituting rev	AAACGCGATCCCTTCGGGTTCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_18_v2_pilon	7938	7960	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3133	3155	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5697	5719	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2485	2507	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163331	163353	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4859	4881	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1523	1545	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2692	2714	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	2035	2057	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	282	304	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3175	3197	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	420	442	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1918	1940	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808966	808988	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11151	11173	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849211	849233	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1907	1929	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7822	7844	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7272	7294	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4183	4205	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4457	4479	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1483	1505	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	2006	2028	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9561	9583	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3251	3273	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1205	1227	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2826	2848	+	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007333	2007355	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518327	1518349	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631545	631567	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591589	2591611	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	281942	281964	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208026	1208048	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16039	16061	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5881	5903	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667071	667093	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20019	20041	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519936	1519958	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739120	739142	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399543	399565	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587076	587098	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633179	633201	-	0	ACAGAACCCGAAGGGATCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4336	4358	+	3	CCGAAACCCGAAGGGATCGC	TGG	-|--||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277650	277672	+	3	CCGAAACCCGAAGGGATCGC	TGG	-|--||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264188	264210	+	3	CCGAAACCCGAAGGGATCGC	TGG	-|--||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4947	4969	+	1	ACAGAACCCGAAGGGATCGT	TGG	||||||||[|||||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_010_v2_pilon	1441	1463	+	1	ACAGAACCCGAAGGGATCGT	TGG	||||||||[|||||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1528	1550	+	1	ACAGAACCCGAAGGGATCGT	TGG	||||||||[|||||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668326	668348	-	1	ACAGAACCCGAAGGGATCGT	TGG	||||||||[|||||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737453	737475	-	1	ACAGAACCCGAAGGGATCGT	TGG	||||||||[|||||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671450	671472	-	1	ACAGAACCCGAAGGGATCGT	TGG	||||||||[|||||||||||-]PAM	NA	Intergenic	NA	NA
+
+T9	TGCGTCCCTGCGTGCCCCGCTGG	56	CRISPRater score	0.711902155
+Oligo adding fwd	TAggTGCGTCCCTGCGTGCCCCGC
+Oligo adding rev	AAACGCGGGGCACGCAGGGACGCA
+Oligo substituting fwd	TAggCGTCCCTGCGTGCCCCGC
+Oligo substituting rev	AAACGCGGGGCACGCAGGGACG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_17_v2_pilon	320409	320431	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208103	1208125	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16115	16137	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007409	2007431	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1520012	1520034	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739196	739218	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	282018	282040	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587152	587174	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591665	2591687	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518403	1518425	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631621	631643	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399619	399641	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5957	5979	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633255	633277	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667147	667169	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20095	20117	+	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3175	3197	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1831	1853	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11075	11097	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4784	4806	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3057	3079	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7862	7884	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2409	2431	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1930	1952	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2616	2638	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3099	3121	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1447	1469	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1129	1151	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7195	7217	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211012	211034	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2750	2772	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264108	264130	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4381	4403	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277570	277592	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163255	163277	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4256	4278	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1407	1429	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1842	1864	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4107	4129	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	206	228	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	344	366	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	1959	1981	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9485	9507	-	0	TGCGTCCCTGCGTGCCCCGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671528	671550	+	1	TGCGTCCCTGCGTGCGCCGC	TGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668403	668425	+	1	TGCGTCCCTGCGTGCGCCGC	TGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737529	737551	+	1	TGCGTCCCTGCGTGCGCCGC	TGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7746	7768	-	1	TGCGTCCCTGCGTGCGCCGC	TGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808890	808912	-	1	TGCGTCCCTGCGTGCGCCGC	TGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849135	849157	-	1	TGCGTCCCTGCGTGCGCCGC	TGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5621	5643	-	1	TGCGTCCCTGCGTGCGCCGC	TGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4870	4892	-	1	TGCGTCCCTGCGTGCGCCGC	TGG	||||||||[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	186353	186375	-	4	GGCATCCTTGCGTGCACCGC	TGG	-||-|||-[|||||||-||||]PAM	NA	Intergenic	NA	NA
+
+T10	ACGGAAGCTACAGAACCCGAAGG	54	CRISPRater score	0.602998735
+Oligo adding fwd	TAggACGGAAGCTACAGAACCCGA
+Oligo adding rev	AAACTCGGGTTCTGTAGCTTCCGT
+Oligo substituting fwd	TAggGGAAGCTACAGAACCCGA
+Oligo substituting rev	AAACTCGGGTTCTGTAGCTTCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_21_v2_pilon	1474	1496	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1997	2019	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9552	9574	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3242	3264	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1196	1218	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7929	7951	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3124	3146	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2476	2498	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163322	163344	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4850	4872	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1514	1536	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2683	2705	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	2026	2048	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	273	295	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3166	3188	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	411	433	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1909	1931	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808957	808979	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11142	11164	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849202	849224	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1898	1920	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7813	7835	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211079	211101	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4938	4960	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_010_v2_pilon	1432	1454	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7263	7285	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4174	4196	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4448	4470	+	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737462	737484	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671459	671481	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20028	20050	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519945	1519967	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739129	739151	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399552	399574	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587085	587107	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633188	633210	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007342	2007364	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518336	1518358	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631554	631576	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591598	2591620	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	281951	281973	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208035	1208057	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16048	16070	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5890	5912	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667080	667102	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668335	668357	-	0	ACGGAAGCTACAGAACCCGA	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1519	1541	+	1	AAGGAAGCTACAGAACCCGA	AGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2817	2839	+	1	AAGGAAGCTACAGAACCCGA	AGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5688	5710	+	1	AAGGAAGCTACAGAACCCGA	AGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+
+T11	CGGAAGCTACAGAACCCGAAGGG	54	CRISPRater score	0.5977384
+Oligo adding fwd	TAggCGGAAGCTACAGAACCCGAA
+Oligo adding rev	AAACTTCGGGTTCTGTAGCTTCCG
+Oligo substituting fwd	TAggGAAGCTACAGAACCCGAA
+Oligo substituting rev	AAACTTCGGGTTCTGTAGCTTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_03_v2_pilon	1910	1932	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808958	808980	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11143	11165	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849203	849225	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1899	1921	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7814	7836	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211080	211102	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4939	4961	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_010_v2_pilon	1433	1455	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7264	7286	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4175	4197	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4449	4471	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1475	1497	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1998	2020	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9553	9575	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3243	3265	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1197	1219	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7930	7952	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3125	3147	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2477	2499	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163323	163345	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4851	4873	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1515	1537	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2684	2706	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	2027	2049	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	274	296	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3167	3189	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	412	434	+	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20027	20049	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519944	1519966	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739128	739150	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399551	399573	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587084	587106	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633187	633209	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007341	2007363	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518335	1518357	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631553	631575	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591597	2591619	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	281950	281972	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208034	1208056	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16047	16069	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5889	5911	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667079	667101	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668334	668356	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737461	737483	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671458	671480	-	0	CGGAAGCTACAGAACCCGAA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5689	5711	+	1	AGGAAGCTACAGAACCCGAA	GGG	-|||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1520	1542	+	1	AGGAAGCTACAGAACCCGAA	GGG	-|||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2818	2840	+	1	AGGAAGCTACAGAACCCGAA	GGG	-|||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+
+T12	CAGAACCCGAAGGGATCGCTGGG	52	CRISPRater score	0.45005431
+Oligo adding fwd	TAggCAGAACCCGAAGGGATCGCT
+Oligo adding rev	AAACAGCGATCCCTTCGGGTTCTG
+Oligo substituting fwd	TAggGAACCCGAAGGGATCGCT
+Oligo substituting rev	AAACAGCGATCCCTTCGGGTTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_23_v2_pilon	421	443	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1919	1941	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808967	808989	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11152	11174	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849212	849234	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1908	1930	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7823	7845	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7273	7295	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4184	4206	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4458	4480	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1484	1506	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	2007	2029	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9562	9584	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3252	3274	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1206	1228	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2827	2849	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7939	7961	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3134	3156	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5698	5720	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2486	2508	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163332	163354	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4860	4882	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1524	1546	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2693	2715	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	2036	2058	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	283	305	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3176	3198	+	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211089	211111	+	0	CAGAACCCGAAGGGATCGCT	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739119	739141	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399542	399564	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587075	587097	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633178	633200	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007332	2007354	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518326	1518348	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631544	631566	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591588	2591610	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	281941	281963	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208025	1208047	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16038	16060	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5880	5902	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667070	667092	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20018	20040	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519935	1519957	-	0	CAGAACCCGAAGGGATCGCT	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4337	4359	+	2	CGAAACCCGAAGGGATCGCT	GGG	|--|||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277651	277673	+	2	CGAAACCCGAAGGGATCGCT	GGG	|--|||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264189	264211	+	2	CGAAACCCGAAGGGATCGCT	GGG	|--|||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320331	320353	-	4	AGAAACCTGAAGGGATCGCT	GGG	---||||-[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_010_v2_pilon	1442	1464	+	1	CAGAACCCGAAGGGATCGTT	GGG	||||||||[||||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1529	1551	+	1	CAGAACCCGAAGGGATCGTT	GGG	||||||||[||||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4948	4970	+	1	CAGAACCCGAAGGGATCGTT	GGG	||||||||[||||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671449	671471	-	1	CAGAACCCGAAGGGATCGTT	GGG	||||||||[||||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668325	668347	-	1	CAGAACCCGAAGGGATCGTT	GGG	||||||||[||||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737452	737474	-	1	CAGAACCCGAAGGGATCGTT	GGG	||||||||[||||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_35_v2_pilon	665980	666002	+	4	CAGAGACCGCAGGGATCGGT	GGG	||||--||[|-||||||||-|]PAM	NA	Intergenic	NA	NA
+
+T13	CCTGCGTGCCCCGCTGGTGCTGG	47	CRISPRater score	0.773997795
+Oligo adding fwd	TAggCCTGCGTGCCCCGCTGGTGC
+Oligo adding rev	AAACGCACCAGCGGGGCACGCAGG
+Oligo substituting fwd	TAggTGCGTGCCCCGCTGGTGC
+Oligo substituting rev	AAACGCACCAGCGGGGCACGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_18_v2_pilon	739202	739224	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	282024	282046	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587158	587180	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591671	2591693	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518409	1518431	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631627	631649	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399625	399647	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5963	5985	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633261	633283	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667153	667175	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20101	20123	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320415	320437	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16121	16143	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007415	2007437	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1520018	1520040	+	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7189	7211	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211006	211028	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2744	2766	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264102	264124	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4375	4397	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277564	277586	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163249	163271	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4250	4272	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1401	1423	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1836	1858	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4101	4123	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	200	222	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	338	360	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	1953	1975	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9479	9501	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3169	3191	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1825	1847	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11069	11091	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4778	4800	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3051	3073	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7856	7878	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2403	2425	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1924	1946	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2610	2632	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3093	3115	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1441	1463	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1123	1145	-	0	CCTGCGTGCCCCGCTGGTGC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808884	808906	-	1	CCTGCGTGCGCCGCTGGTGC	TGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849129	849151	-	1	CCTGCGTGCGCCGCTGGTGC	TGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5615	5637	-	1	CCTGCGTGCGCCGCTGGTGC	TGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	223128	223150	+	4	TCCCCGAGCCCCGCTGGTGC	CGG	-|--||-|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	311171	311193	+	4	GCTCGGTGCCGCGCTGGTGC	GGG	-||--|||[||-|||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	727985	728007	-	4	CCTGCAACCGCCGCTGGTGC	TGG	|||||---[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	327904	327926	+	4	CCTGCTCGAGCCGCTGGTGC	AGG	|||||--|[--||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	1552386	1552408	-	4	GCCGCGTGCCTCTCTGGTGC	TGG	-|-|||||[||-|-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_26_v2_pilon	149687	149709	-	4	TCTGCGCGCGCCGCTTGTGC	CGG	-|||||-|[|-|||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	141026	141048	+	4	GCTGCATGCGCCGCTGCTGC	GGG	-||||-||[|-||||||-|||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	185338	185360	+	4	GCTGCGCGCCTCGCTGGTGG	AGG	-|||||-|[||-||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	183472	183494	+	4	GCTGCGCGCCTCGCTGGTGG	AGG	-|||||-|[||-||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	179740	179762	+	4	GCTGCGCGCCTCGCTGGTGG	AGG	-|||||-|[||-||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	181606	181628	+	4	GCTGCGCGCCTCGCTGGTGG	AGG	-|||||-|[||-||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	177874	177896	+	4	GCTGCGCGCCTCGCTGGTGG	AGG	-|||||-|[||-||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	187204	187226	+	4	GCTGCGCGCCTCGCTGGTGG	AGG	-|||||-|[||-||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208109	1208131	+	2	CCTGCGTGCCCCGCTGGGTC	TGG	||||||||[|||||||||--|]PAM	NA	Intergenic	NA	NA
+LbrM2903_24_v2_pilon	583671	583693	+	4	CTTTCGTGCCCCGCTGGCGG	CGG	|-|-||||[|||||||||-|-]PAM	NA	Intergenic	NA	NA
+
+T14	ATTGTTCCCAGCGATCCCTTCGG	43	CRISPRater score	0.791907935
+Oligo adding fwd	TAggATTGTTCCCAGCGATCCCTT
+Oligo adding rev	AAACAAGGGATCGCTGGGAACAAT
+Oligo substituting fwd	TAggTGTTCCCAGCGATCCCTT
+Oligo substituting rev	AAACAAGGGATCGCTGGGAACA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_34_v2_pilon	2007326	2007348	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519929	1519951	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739113	739135	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	281935	281957	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587069	587091	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591582	2591604	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631538	631560	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399536	399558	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633172	633194	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208019	1208041	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518320	1518342	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16032	16054	+	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2492	2514	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	2013	2035	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2699	2721	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3182	3204	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1212	1234	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4464	4486	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849218	849240	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3140	3162	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1530	1552	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7829	7851	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	2042	2064	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808973	808995	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163338	163360	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4866	4888	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5704	5726	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2833	2855	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1490	1512	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1925	1947	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4190	4212	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	289	311	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	427	449	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9568	9590	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3258	3280	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1914	1936	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11158	11180	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7945	7967	-	0	ATTGTTCCCAGCGATCCCTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667064	667086	+	1	GTTGTTCCCAGCGATCCCTT	CGG	-|||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5874	5896	+	1	GTTGTTCCCAGCGATCCCTT	CGG	-|||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7279	7301	-	1	GTTGTTCCCAGCGATCCCTT	CGG	-|||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20012	20034	+	1	ATTGCTCCCAGCGATCCCTT	CGG	||||-|||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4343	4365	-	1	ATTGCTCCCAGCGATCCCTT	CGG	||||-|||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264195	264217	-	1	ATTGCTCCCAGCGATCCCTT	CGG	||||-|||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277657	277679	-	1	ATTGCTCCCAGCGATCCCTT	CGG	||||-|||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211095	211117	-	1	ATTGTTCCAAGCGATCCCTT	CGG	||||||||[-|||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671443	671465	+	2	GTTGTTCCCAACGATCCCTT	CGG	-|||||||[||-|||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668319	668341	+	2	GTTGTTCCCAACGATCCCTT	CGG	-|||||||[||-|||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737446	737468	+	2	GTTGTTCCCAACGATCCCTT	CGG	-|||||||[||-|||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1535	1557	-	2	GTTGTTCCCAACGATCCCTT	CGG	-|||||||[||-|||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_010_v2_pilon	1448	1470	-	2	GTTGTTCCCAACGATCCCTT	CGG	-|||||||[||-|||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4954	4976	-	2	GTTGTTCCCAACGATCCCTT	CGG	-|||||||[||-|||||||||]PAM	NA	Intergenic	NA	NA
+
+T15	GCTACAAGCGCCAGCACCAGCGG	41	CRISPRater score	0.65923468
+Oligo adding fwd	TAgGCTACAAGCGCCAGCACCAG
+Oligo adding rev	AAACCTGGTGCTGGCGCTTGTAG
+Oligo substituting fwd	TAGgTACAAGCGCCAGCACCAG
+Oligo substituting rev	AAACCTGGTGCTGGCGCTTGTA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_23_v2_pilon	1943	1965	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2734	2756	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3041	3063	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1431	1453	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5605	5627	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7179	7201	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	210996	211018	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4091	4113	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1391	1413	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1914	1936	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9469	9491	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3159	3181	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1113	1135	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7846	7868	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2393	2415	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2600	2622	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	190	212	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3083	3105	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	328	350	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1826	1848	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11059	11081	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1815	1837	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4768	4790	+	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399635	399657	-	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587168	587190	-	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633271	633293	-	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631637	631659	-	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591681	2591703	-	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	282034	282056	-	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5973	5995	-	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20111	20133	-	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518419	1518441	-	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667163	667185	-	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739212	739234	-	0	GCTACAAGCGCCAGCACCAG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4240	4262	+	1	ACTACAAGCGCCAGCACCAG	CGG	-|||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4365	4387	+	1	GCTACCAGCGCCAGCACCAG	CGG	|||||-||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277554	277576	+	1	GCTACCAGCGCCAGCACCAG	CGG	|||||-||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007425	2007447	-	1	GCTACCAGCGCCAGCACCAG	CGG	|||||-||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1520028	1520050	-	1	GCTACCAGCGCCAGCACCAG	CGG	|||||-||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16131	16153	-	1	GCTACAGGCGCCAGCACCAG	CGG	||||||-|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264092	264114	+	2	ACTACCAGCGCCAGCACCAG	CGG	-||||-||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849119	849141	+	1	GCTACAAGCACCAGCACCAG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808874	808896	+	1	GCTACAAGCACCAGCACCAG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163239	163261	+	1	GCTACAAGCACCAGCACCAG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320425	320447	-	1	GCTACAAGCACCAGCACCAG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_26_v2_pilon	400819	400841	+	4	TCTTCCAGCGACAGCACCAG	CGG	-||-|-||[||-|||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_25_v2_pilon	333302	333324	-	4	ACTACACGCTGCAGCACCAG	CGG	-|||||-|[|--|||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	300741	300763	+	4	GCTGCTACCGCCATCACCAG	AGG	|||-|-|-[|||||-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_25_v2_pilon	301643	301665	+	3	CCTACAAACGCCAGCTCCAG	CGG	-||||||-[|||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	407870	407892	+	4	GAGAGAAGCGCCAGCAGCAG	GGG	|--|-|||[||||||||-|||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7730	7752	+	3	GCTACCAGCGCTAGCTCCAG	CGG	|||||-||[|||-|||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4854	4876	+	3	GCTACCAGCGCTAGCTCCAG	CGG	|||||-||[|||-|||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1437	1459	+	3	GCTACCAGCGCTAGCTCCAG	CGG	|||||-||[|||-|||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_010_v2_pilon	1347	1369	+	3	GCTACCAGCGCTAGCTCCAG	CGG	|||||-||[|||-|||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668419	668441	-	3	GCTACCAGCGCTAGCTCCAG	CGG	|||||-||[|||-|||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671544	671566	-	3	GCTACCAGCGCTAGCTCCAG	CGG	|||||-||[|||-|||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737545	737567	-	3	GCTACCAGCGCTAGCTCCAG	CGG	|||||-||[|||-|||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208119	1208141	-	2	GCTACAAGCGCCAGACCCAG	CGG	||||||||[||||||--||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	421117	421139	+	4	TCCACAAGCGCCAGCACGAA	TGG	-|-|||||[|||||||||-|-]PAM	NA	Intergenic	NA	NA
+
+T16	TTGTAGCTTGATTGTTTTTTCGG	41	CRISPRater score	0.528429145
+Oligo adding fwd	TAggTTGTAGCTTGATTGTTTTTT
+Oligo adding rev	AAACAAAAAACAATCAAGCTACAA
+Oligo substituting fwd	TAggGTAGCTTGATTGTTTTTT
+Oligo substituting rev	AAACAAAAAACAATCAAGCTAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_20_v2_pilon	2591697	2591719	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518435	1518457	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631653	631675	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399651	399673	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5989	6011	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633287	633309	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667179	667201	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208135	1208157	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20127	20149	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739228	739250	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320441	320463	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	282050	282072	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587184	587206	+	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	210980	211002	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2718	2740	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808858	808880	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1810	1832	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4075	4097	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	174	196	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5589	5611	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	312	334	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163223	163245	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	1927	1949	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9453	9475	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3143	3165	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1799	1821	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11043	11065	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4752	4774	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3025	3047	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7830	7852	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2377	2399	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1898	1920	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2584	2606	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3067	3089	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1415	1437	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1097	1119	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7163	7185	-	0	TTGTAGCTTGATTGTTTTTT	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16147	16169	+	1	CTGTAGCTTGATTGTTTTTT	CGG	-|||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671560	671582	+	1	TGGTAGCTTGATTGTTTTTT	CGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007441	2007463	+	1	TGGTAGCTTGATTGTTTTTT	CGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668435	668457	+	1	TGGTAGCTTGATTGTTTTTT	CGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737561	737583	+	1	TGGTAGCTTGATTGTTTTTT	CGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277538	277560	-	1	TGGTAGCTTGATTGTTTTTT	CGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1421	1443	-	1	TGGTAGCTTGATTGTTTTTT	CGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_010_v2_pilon	1331	1353	-	1	TGGTAGCTTGATTGTTTTTT	CGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4838	4860	-	1	TGGTAGCTTGATTGTTTTTT	CGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7714	7736	-	1	TGGTAGCTTGATTGTTTTTT	CGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4349	4371	-	1	TGGTAGCTTGATTGTTTTTT	CGG	|-||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4224	4246	-	1	TTGTAGTTTGATTGTTTTTT	CGG	||||||-|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264076	264098	-	2	TGGTAGTTTGATTGTTTTTT	CGG	|-||||-|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849103	849125	-	1	TTGTAGCTTGATTATTTTTT	CGG	||||||||[|||||-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_06_v2_pilon	209122	209144	-	4	TTCTTGTTTGTTTGTTTTTT	TGG	||-|-|-|[||-|||||||||]PAM	NA	Intergenic	NA	NA
+
+T17	GGACGCACGTACACGAATCCAGG	40	CRISPRater score	0.77773055
+Oligo fwd	TAGGACGCACGTACACGAATCC
+Oligo rev	AAACGGATTCGTGTACGTGCGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_28_v2_pilon	7762	7784	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1468	1490	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4123	4145	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4397	4419	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1423	1445	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1946	1968	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9501	9523	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3191	3213	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1145	1167	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7878	7900	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2425	2447	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2632	2654	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	222	244	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3115	3137	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	360	382	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1858	1880	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11091	11113	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1847	1869	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4800	4822	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	1975	1997	+	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5637	5659	+	0	GGACGCACGTACACGAATCC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3073	3095	+	0	GGACGCACGTACACGAATCC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849151	849173	+	0	GGACGCACGTACACGAATCC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4886	4908	+	0	GGACGCACGTACACGAATCC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163271	163293	+	0	GGACGCACGTACACGAATCC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808906	808928	+	0	GGACGCACGTACACGAATCC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2766	2788	+	0	GGACGCACGTACACGAATCC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1463	1485	+	0	GGACGCACGTACACGAATCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16099	16121	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5941	5963	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208087	1208109	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671512	671534	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667131	667153	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519996	1520018	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739180	739202	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399603	399625	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587136	587158	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633239	633261	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007393	2007415	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631605	631627	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591649	2591671	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	282002	282024	-	0	GGACGCACGTACACGAATCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20079	20101	-	0	GGACGCACGTACACGAATCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320393	320415	-	0	GGACGCACGTACACGAATCC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668387	668409	-	0	GGACGCACGTACACGAATCC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518387	1518409	-	0	GGACGCACGTACACGAATCC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737513	737535	-	0	GGACGCACGTACACGAATCC	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211028	211050	+	1	GGACGCACGCACACGAATCC	AGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7211	7233	+	1	GGACGCACGCACACGAATCC	AGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4272	4294	+	1	GGACGCACGTACGCGAATCC	CGG	||||||||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277586	277608	+	1	GGACGCACGTACGCGAATCC	CGG	||||||||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264124	264146	+	1	GGACGCACGTACGCGAATCC	CGG	||||||||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+
+T18	CACGAATCCAGGCGGCGCTGCGG	36	CRISPRater score	0.6975707
+Oligo adding fwd	TAggCACGAATCCAGGCGGCGCTG
+Oligo adding rev	AAACCAGCGCCGCCTGGATTCGTG
+Oligo substituting fwd	TAggCGAATCCAGGCGGCGCTG
+Oligo substituting rev	AAACCAGCGCCGCCTGGATTCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_05_v2_pilon	4811	4833	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	1986	2008	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7773	7795	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7222	7244	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1479	1501	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4134	4156	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4408	4430	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1434	1456	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1957	1979	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9512	9534	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3202	3224	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1156	1178	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7889	7911	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2436	2458	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2643	2665	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	233	255	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3126	3148	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	371	393	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1869	1891	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11102	11124	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1858	1880	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211039	211061	+	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587125	587147	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633228	633250	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007382	2007404	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631594	631616	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591638	2591660	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	281991	282013	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16088	16110	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5930	5952	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208076	1208098	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667120	667142	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519985	1520007	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739169	739191	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399592	399614	-	0	CACGAATCCAGGCGGCGCTG	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5648	5670	+	1	CACGAATCCCGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3084	3106	+	1	CACGAATCCCGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849162	849184	+	1	CACGAATCCCGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4897	4919	+	1	CACGAATCCCGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163282	163304	+	1	CACGAATCCCGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808917	808939	+	1	CACGAATCCCGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2777	2799	+	1	CACGAATCCCGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1474	1496	+	1	CACGAATCCTGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668376	668398	-	1	CACGAATCCCGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518376	1518398	-	1	CACGAATCCCGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737502	737524	-	1	CACGAATCCCGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320382	320404	-	1	CACGAATCCCGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20068	20090	-	1	CACGAATCCTGGCGGCGCTG	CGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	1684663	1684685	+	4	GCTCAATCCAGGCGGCGCTG	CGG	----||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264135	264157	+	2	CGCGAATCCCGGCGGCGCTG	CGG	|-||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4283	4305	+	2	CGCGAATCCCGGCGGCGCTG	CGG	|-||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277597	277619	+	2	CGCGAATCCCGGCGGCGCTG	CGG	|-||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	434311	434333	-	3	CCCGTATCCAGGAGGCGCTG	GGG	|-||-|||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_27_v2_pilon	748601	748623	+	4	CACGAAAGAAGGTGGCGCTG	TGG	||||||--[-|||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	24313	24335	+	4	CAAGAAGCAAGGCGGTGCTG	CGG	||-|||-|[-||||||-||||]PAM	NA	Intergenic	NA	NA
+
+T19	CAGCACCAGCGGGGCACGCAGGG	35	CRISPRater score	0.6074803200000001
+Oligo adding fwd	TAggCAGCACCAGCGGGGCACGCA
+Oligo adding rev	AAACTGCGTGCCCCGCTGGTGCTG
+Oligo substituting fwd	TAggGCACCAGCGGGGCACGCA
+Oligo substituting rev	AAACTGCGTGCCCCGCTGGTGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_16_v2_pilon	3170	3192	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1124	1146	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7857	7879	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2404	2426	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2611	2633	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	201	223	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3094	3116	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	339	361	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1837	1859	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11070	11092	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1826	1848	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4779	4801	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	1954	1976	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2745	2767	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3052	3074	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163250	163272	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1442	1464	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4251	4273	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277565	277587	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264103	264125	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7190	7212	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211007	211029	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4102	4124	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4376	4398	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1402	1424	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1925	1947	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9480	9502	+	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320414	320436	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518408	1518430	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667152	667174	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1520017	1520039	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739201	739223	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399624	399646	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587157	587179	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633260	633282	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007414	2007436	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631626	631648	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591670	2591692	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	282023	282045	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16120	16142	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5962	5984	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20100	20122	-	0	CAGCACCAGCGGGGCACGCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208108	1208130	-	2	CAGACCCAGCGGGGCACGCA	GGG	|||--|||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	430939	430961	-	2	CAGCGGCAGCGGGGCACGCA	GGG	||||--||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849130	849152	+	1	CAGCACCAGCGGCGCACGCA	GGG	||||||||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808885	808907	+	1	CAGCACCAGCGGCGCACGCA	GGG	||||||||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5616	5638	+	1	CAGCACCAGCGGCGCACGCA	GGG	||||||||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4865	4887	+	3	TAGCTCCAGCGGCGCACGCA	GGG	-|||-|||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7741	7763	+	3	TAGCTCCAGCGGCGCACGCA	GGG	-|||-|||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671533	671555	-	3	TAGCTCCAGCGGCGCACGCA	GGG	-|||-|||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737534	737556	-	3	TAGCTCCAGCGGCGCACGCA	GGG	-|||-|||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668408	668430	-	3	TAGCTCCAGCGGCGCACGCA	GGG	-|||-|||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	186348	186370	+	4	ATGCGCCAGCGGTGCACGCA	AGG	--||-|||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2214035	2214057	+	4	CAGCAACGGCGAGGAACGCA	AGG	|||||-|-[|||-||-|||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_25_v2_pilon	774212	774234	-	3	CAGCGACAGCGGGGCACGGA	CGG	||||--||[||||||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	215554	215576	+	4	CACCAGCAGCAGGGCACGGA	CGG	||-||-||[||-|||||||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_22_v2_pilon	561957	561979	-	3	CATCACCAGCGAGGCACGCC	TGG	||-|||||[|||-|||||||-]PAM	NA	Intergenic	NA	NA
+
+T20	TTGTTCCCAGCGATCCCTTCGGG	34	CRISPRater score	0.7211380900000001
+Oligo adding fwd	TAggTTGTTCCCAGCGATCCCTTC
+Oligo adding rev	AAACGAAGGGATCGCTGGGAACAA
+Oligo substituting fwd	TAggGTTCCCAGCGATCCCTTC
+Oligo substituting rev	AAACGAAGGGATCGCTGGGAAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_00_012_v2_pilon	5875	5897	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633173	633195	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208020	1208042	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667065	667087	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518321	1518343	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16033	16055	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007327	2007349	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519930	1519952	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739114	739136	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	281936	281958	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587070	587092	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591583	2591605	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631539	631561	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399537	399559	+	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320326	320348	+	0	TTGTTCCCAGCGATCCCTTC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2698	2720	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3181	3203	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1211	1233	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4463	4485	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849217	849239	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3139	3161	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1529	1551	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7828	7850	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	2041	2063	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808972	808994	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163337	163359	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4865	4887	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5703	5725	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2832	2854	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7278	7300	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1489	1511	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1924	1946	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4189	4211	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	288	310	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	426	448	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9567	9589	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3257	3279	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1913	1935	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11157	11179	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7944	7966	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2491	2513	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	2012	2034	-	0	TTGTTCCCAGCGATCCCTTC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20013	20035	+	1	TTGCTCCCAGCGATCCCTTC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264194	264216	-	1	TTGCTCCCAGCGATCCCTTC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277656	277678	-	1	TTGCTCCCAGCGATCCCTTC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4342	4364	-	1	TTGCTCCCAGCGATCCCTTC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211094	211116	-	1	TTGTTCCAAGCGATCCCTTC	GGG	|||||||-[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737447	737469	+	1	TTGTTCCCAACGATCCCTTC	GGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671444	671466	+	1	TTGTTCCCAACGATCCCTTC	GGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668320	668342	+	1	TTGTTCCCAACGATCCCTTC	GGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1534	1556	-	1	TTGTTCCCAACGATCCCTTC	GGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_010_v2_pilon	1447	1469	-	1	TTGTTCCCAACGATCCCTTC	GGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4953	4975	-	1	TTGTTCCCAACGATCCCTTC	GGG	||||||||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+
+T21	CCAGCACCAGCGGGGCACGCAGG	5	CRISPRater score	0.69842287
+Oligo adding fwd	TAggCCAGCACCAGCGGGGCACGC
+Oligo adding rev	AAACGCGTGCCCCGCTGGTGCTGG
+Oligo substituting fwd	TAggAGCACCAGCGGGGCACGC
+Oligo substituting rev	AAACGCGTGCCCCGCTGGTGCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_10_v2_pilon	277564	277586	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264102	264124	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7189	7211	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211006	211028	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4101	4123	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4375	4397	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1401	1423	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1924	1946	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9479	9501	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3169	3191	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1123	1145	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7856	7878	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2403	2425	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2610	2632	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	200	222	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3093	3115	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	338	360	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1836	1858	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11069	11091	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1825	1847	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4778	4800	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	1953	1975	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2744	2766	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3051	3073	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163249	163271	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1441	1463	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4250	4272	+	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739202	739224	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399625	399647	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587158	587180	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633261	633283	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007415	2007437	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631627	631649	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591671	2591693	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	282024	282046	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16121	16143	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5963	5985	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20101	20123	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320415	320437	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1518409	1518431	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667153	667175	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1520018	1520040	-	0	CCAGCACCAGCGGGGCACGC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208109	1208131	-	2	CCAGACCCAGCGGGGCACGC	AGG	||||--||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	430940	430962	-	3	TCAGCGGCAGCGGGGCACGC	AGG	-||||--|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_25_v2_pilon	105761	105783	+	4	CGAGGTGCAGCGGGGCACGC	GGG	|-||---|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1088208	1088230	-	4	CGAGGTGCAGCGGGGCACGC	GGG	|-||---|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	338567	338589	-	4	CGAGGTGCAGCGGGGCACGC	GGG	|-||---|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_25_v2_pilon	379163	379185	-	4	CGAGGTGCAGCGGGGCACGC	GGG	|-||---|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5615	5637	+	1	CCAGCACCAGCGGCGCACGC	AGG	||||||||[|||||-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849129	849151	+	1	CCAGCACCAGCGGCGCACGC	AGG	||||||||[|||||-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808884	808906	+	1	CCAGCACCAGCGGCGCACGC	AGG	||||||||[|||||-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	664213	664235	-	4	CCAGTGACACCGGGGCACGC	GGG	||||---|[|-||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7740	7762	+	3	CTAGCTCCAGCGGCGCACGC	AGG	|-|||-||[|||||-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4864	4886	+	3	CTAGCTCCAGCGGCGCACGC	AGG	|-|||-||[|||||-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737535	737557	-	3	CTAGCTCCAGCGGCGCACGC	AGG	|-|||-||[|||||-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668409	668431	-	3	CTAGCTCCAGCGGCGCACGC	AGG	|-|||-||[|||||-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	671534	671556	-	3	CTAGCTCCAGCGGCGCACGC	AGG	|-|||-||[|||||-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	616050	616072	-	4	TCAGTTCCAGCGGTGCACGC	AGG	-|||--||[|||||-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_02_v2_pilon	330883	330905	-	4	CCCTCACCAGCCGTGCACGC	CGG	||--||||[|||-|-||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	216106	216128	-	4	CCAGTGTCAGCGGGGCGCGC	GGG	||||---|[||||||||-|||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	819317	819339	-	4	GCTGCACCAGCGGGGGGCGC	GGG	-|-|||||[|||||||--|||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	785968	785990	+	4	GCAGCGCCAGCGGCGCAGGC	TGG	-||||-||[|||||-|||-||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	770271	770293	+	4	GCAGCGCCAGCGGCGCAGGC	TGG	-||||-||[|||||-|||-||]PAM	NA	Intergenic	NA	NA
+
+T22	TTGGCGACCGCAGCGCCGCCTGG	0	CRISPRater score	0.70191218
+Oligo adding fwd	TAggTTGGCGACCGCAGCGCCGCC
+Oligo adding rev	AAACGGCGGCGCTGCGGTCGCCAA
+Oligo substituting fwd	TAggGGCGACCGCAGCGCCGCC
+Oligo substituting rev	AAACGGCGGCGCTGCGGTCGCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+LbrM2903_33_v2_pilon	1518369	1518391	+	0	TTGGCGACCGCAGCGCCGCC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	633221	633243	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_29_v2_pilon	1208069	1208091	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_035_v2_pilon	16081	16103	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	2007375	2007397	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_33_v2_pilon	1519978	1520000	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	739162	739184	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	281984	282006	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	587118	587140	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	2591631	2591653	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_15_v2_pilon	631587	631609	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	399585	399607	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_012_v2_pilon	5923	5945	+	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	20061	20083	+	0	TTGGCGACCGCAGCGCCGCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_21_v2_pilon	1441	1463	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	1876	1898	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_045_v2_pilon	4141	4163	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	240	262	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	378	400	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	9519	9541	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	3209	3231	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	1865	1887	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	11109	11131	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_05_v2_pilon	4818	4840	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	7896	7918	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_04_v2_pilon	2443	2465	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_12_v2_pilon	1964	1986	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_01_v2_pilon	2650	2672	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_32_v2_pilon	3133	3155	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	1163	1185	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_08_v2_pilon	4415	4437	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	7229	7251	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_07_v2_pilon	211046	211068	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_30_v2_pilon	1486	1508	-	0	TTGGCGACCGCAGCGCCGCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	1481	1503	-	0	TTGGCGACCGCAGCGCCGCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_14_v2_pilon	5655	5677	-	0	TTGGCGACCGCAGCGCCGCC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_31_v2_pilon	3091	3113	-	0	TTGGCGACCGCAGCGCCGCC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_018_v2_pilon	2784	2806	-	0	TTGGCGACCGCAGCGCCGCC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	849169	849191	-	0	TTGGCGACCGCAGCGCCGCC	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_17_v2_pilon	320375	320397	+	1	TTGCCGACCGCAGCGCCGCC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	668369	668391	+	1	TTGCCGACCGCAGCGCCGCC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_18_v2_pilon	737495	737517	+	1	TTGCCGACCGCAGCGCCGCC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	667113	667135	+	1	TTGCCGACCGCAGCGCCGCC	TGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_23_v2_pilon	1993	2015	-	1	TTGCCGACCGCAGCGCCGCC	TGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_28_v2_pilon	7780	7802	-	1	TTGCCGACCGCAGCGCCGCC	TGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	277604	277626	-	1	TTGCCGACCGCAGCGCCGCC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	808924	808946	-	1	TTGCCGACCGCAGCGCCGCC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	4904	4926	-	1	TTGCCGACCGCAGCGCCGCC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_11_v2_pilon	163289	163311	-	1	TTGCCGACCGCAGCGCCGCC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_00_043_v2_pilon	4290	4312	-	1	TTGCCGACCGCAGCGCCGCC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_10_v2_pilon	264142	264164	-	1	TTGCCGACCGCAGCGCCGCC	GGG	|||-||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_03_v2_pilon	142038	142060	-	3	ATGTCCACCGCAGCGCCGCC	GGG	-||-|-||[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_20_v2_pilon	1684670	1684692	-	4	TACCCGCCCGCAGCGCCGCC	TGG	|---||-|[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	777533	777555	-	4	TTCGCCGACGCAGCGCCGCC	CGG	||-||---[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	800018	800040	-	4	TTCGCCGACGCAGCGCCGCC	CGG	||-||---[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_34_v2_pilon	764170	764192	-	4	TTCGCCGACGCAGCGCCGCC	CGG	||-||---[||||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_35_v2_pilon	1381345	1381367	-	4	TGGGCACCAGCAGCGCCGCC	TGG	|-|||--|[-|||||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_26_v2_pilon	616772	616794	+	4	TGTGCGACTGCGGCGCCGCC	AGG	|--|||||[-||-||||||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_16_v2_pilon	404822	404844	+	4	TCGACGACGGCAGCGGCGCC	GGG	|-|-||||[-||||||-||||]PAM	NA	Intergenic	NA	NA
+LbrM2903_27_v2_pilon	363848	363870	+	3	TTGGCCACCACAGCGCCGCT	GGG	|||||-||[|-|||||||||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_09_v2_pilon	253366	253388	-	4	TTGTGGACCGCAGCGGCGGC	TGG	|||--|||[|||||||-||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	542099	542121	-	4	TTAGCGAGCGCAGCGGCGAC	CGG	||-||||-[|||||||-||-|]PAM	NA	Intergenic	NA	NA
+LbrM2903_19_v2_pilon	13003	13025	+	2	TTGGCGACCGCAGCGCTGCA	GGG	||||||||[||||||||-||-]PAM	NA	Intergenic	NA	NA
+LbrM2903_13_v2_pilon	289281	289303	-	4	TAGGGGACCGCAGCGGCGCG	CGG	|-||-|||[|||||||-|||-]PAM	NA	Intergenic	NA	NA
+
