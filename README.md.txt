@@ -46,3 +46,5 @@ Outputs:
 - output_cctop/cctop_listtop3.tsv
 
 python3 posprocessing_outcctop.py
+
+fiter >900 Candidates are scored from 1000 - suggested best choice to 0 - worst choice. This score takes into account the number of off-targets in the genome, their quality, i.e. number of mismatches and position with respect to the PAM, and the distance to gene exons. 
