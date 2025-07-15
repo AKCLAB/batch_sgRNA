@@ -65,7 +65,7 @@ def process_file(input_xls):
 
     df["efficiency"] = pd.to_numeric(df["efficiency"], errors='coerce').fillna(0).astype(int)
     df["score"] = pd.to_numeric(df["score"], errors='coerce')
-    df2 = df[df["efficiency"] > 900] # We had consideration this thershold comparing results with high score using Eukaryotic Pathogen CRISPR guide RNA/DNA Design Tool, comparing with CCTOP the same  top sequences present a efficiency with this minimal threshold
+    df2 = df[df["efficiency"] > 900] # Candidates are scored from 1000 - suggested best choice to 0 - worst choice. This score takes into account the number of off-targets in the genome, their quality, i.e. number of mismatches and position with respect to the PAM, and the distance to gene exons. 
     df_sorted = df2.sort_values(by=['score', 'efficiency'], ascending=False)
     #top3 = df_sorted.head(3)
     return df_sorted.head(3) # Save in the top 3 lines, df_sorted 
