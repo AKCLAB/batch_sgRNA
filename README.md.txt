@@ -16,6 +16,10 @@ Indexes the reference FASTA genome.
 Predicts sgRNAs for each target sequence in both the 5′ upstream and 3′ downstream regions of the gene.
 Compiles a table with the top 3 sgRNAs predicted by CCTop for each target gene.
 
+Parameters
+- size_chr 100
+- size_target = 50 (default). This value can be adjusted if necessary: use 50 when the knockout should in some cases occur within the target gene; use 0 if the knockout does not need to fall inside the gene.
+
 Tools: 
 cctop 
 bowtie2
