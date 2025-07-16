@@ -42,7 +42,7 @@ def process_file(input_xls):
                 block_atual["id"] = parts[0] # Save the first column of line that start with T1
                 block_atual["sequence"] = parts[1] # Save the second column
                 block_atual["efficiency"] = parts[2]
-                block_atual["score"] = parts[-1]
+                block_atual["efficiency_CRISPRater"] = parts[-1]
                                             
             elif line.startswith("Chromosome"): # Skip when to identify the line that start with Chromosome
                 info_genomic = True
@@ -62,14 +62,13 @@ def process_file(input_xls):
             blocks.append(block_atual)
 
     df = pd.DataFrame(blocks)
-
+    #efficiency_CRISPRater
     df["efficiency"] = pd.to_numeric(df["efficiency"], errors='coerce').fillna(0).astype(int)
-    df["score"] = pd.to_numeric(df["score"], errors='coerce')
+    df["efficiency_CRISPRater"] = pd.to_numeric(df["efficiency_CRISPRater"], errors='coerce')
     df2 = df[df["efficiency"] > 900] # Candidates are scored from 1000 - suggested best choice to 0 - worst choice. This score takes into account the number of off-targets in the genome, their quality, i.e. number of mismatches and position with respect to the PAM, and the distance to gene exons. 
-    df_sorted = df2.sort_values(by=['score', 'efficiency'], ascending=False)
+    df_sorted = df2.sort_values(by=['efficiency_CRISPRater', 'efficiency'], ascending=False)
     #top3 = df_sorted.head(3)
     return df_sorted.head(3) # Save in the top 3 lines, df_sorted 
-
 if __name__ == "__main__":
     todos_top3 = []
 
@@ -81,7 +80,7 @@ if __name__ == "__main__":
 
     if todos_top3:
         df_final = pd.concat(todos_top3)
-        df_final = df_final.sort_values(by=['sample', 'position', 'score' ], ascending=[True, True, False])
+        df_final = df_final.sort_values(by=['sample', 'position', 'efficiency_CRISPRater' ], ascending=[True, True, False])
         df_final.to_csv("cctop_listtop3.tsv", sep="\t", index=False)
         print("We have the best sgRNAs: cctop_listtop3.tsv")
     else:
