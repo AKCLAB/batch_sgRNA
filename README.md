@@ -30,8 +30,8 @@ bedtools
 
 ## Invoking batch_sgRNA:
 ```
-bash /path/to/batch_sgRNA/input_primer.sh -bedfile /path/to/batch_sgRNA/test/file.bed -reffasta /path/to/batch_sgRNA/test/referencegenome.fasta -size_chr 100 -size_target 50 -outname targetprimer
-bash /path/to/batch_sgRNA/input_primer.sh -bedfile /path/to/batch_sgRNA/test/file.bed -reffasta /path/to/batch_sgRNA/test/referencegenome.fasta
+bash /path/to/batch_sgRNA/batch_sgrna.sh -bedfile /path/to/batch_sgRNA/test/file.bed -reffasta /path/to/batch_sgRNA/test/referencegenome.fasta -size_chr 100 -size_target 50 -outname targetprimer
+bash /path/to/batch_sgRNA/batch_sgrna.sh -bedfile /path/to/batch_sgRNA/test/file.bed -reffasta /path/to/batch_sgRNA/test/referencegenome.fasta
 ```
 
 ## Test diretory
