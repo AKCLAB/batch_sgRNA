@@ -36,22 +36,23 @@ def process_file(input_xls):
                     blocks.append(block_atual)
                     block_atual = {} #save information in library
                 parts = line.split("\t")
-                block_atual["sample"] = sample 
+                block_atual["name"] = sample 
                 block_atual["id"] = parts[0] # Save the first column of line that start with T1
-                block_atual["sequence"] = parts[1] # Save the second column
+                #block_atual["sequence"] = parts[1] # Save the second column
                 block_atual["efficiency"] = parts[2]
                 block_atual["efficiency_CRISPRater"] = parts[-1]
                                             
             elif line.startswith("Chromosome"): # Skip when to identify the line that start with Chromosome
                 info_genomic = True
                 continue  # skip header with name Chromosome
-            elif re.match(r'^(LbrM|chr|contig|bctg)', line):  #If recognize name chromossome with same contain then save 
+            elif re.match(r'^(LbrM|chr|contig|bctg|CM)', line):  #If recognize name chromossome with same contain then save 
                 if info_genomic:
                     parts = line.split("\t")
                     block_atual["chr"] = parts[0]
                     block_atual["start"] = parts[1]
                     block_atual["end"] = parts[2]
                     block_atual["strand"] = parts[3]
+                    block_atual["target_seq"] = parts[5]
                     block_atual["PAM"] = parts[6]
                     info_genomic = False
 
@@ -79,8 +80,8 @@ if __name__ == "__main__":
 
     if todos_top3:
         df_final = pd.concat(todos_top3)
-        df_final = df_final.sort_values(by=['sample',  'efficiency_CRISPRater' ], ascending=[True,False])
-        colunas_em_ordem = ['chr','sample','sequence','start','end','strand','PAM','id','efficiency','efficiency_CRISPRater']
+        df_final = df_final.sort_values(by=['name',  'efficiency_CRISPRater' ], ascending=[True,False])
+        colunas_em_ordem = ['chr','name','target_seq', 'start','end','strand','PAM','id','efficiency','efficiency_CRISPRater']
         df_final.to_csv("cctop_listtop3.tsv", sep="\t", index=False, columns=colunas_em_ordem)
         print("We have the best sgRNAs: cctop_listtop3.tsv")
     else:
