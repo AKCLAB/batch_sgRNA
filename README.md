@@ -3,7 +3,8 @@
 Pipeline to predict sgRNAs in batch from a BED file.
 This pipeline was created with the purpose of predicting sgRNAs to assess the presence of a large number of predicted ncRNAs. The concept of prediction was based in the web-based Eukaryotic Pathogen CRISPR guide RNA/DNA Design Tool, which predict sgRNA from the ends of the genes. Our current predictions use the CCTop, tool available, which incorporates an efficiency parameter that considers the number of potential off-targets.
 
-![non-coding RNA analysis workflow](Workflow-Tryp-ncRNA.png)
+
+!https://github.com/AKCLAB/batch_sgRNA/blob/3e62649a2d3d1b7a5a84ba1cfcab58a50919e174/sgrna.drawio.png
 
  Workflow-Tryp-ncRNA.png
 ## Pipeline input_primer.sh Overview:
