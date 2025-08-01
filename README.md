@@ -3,8 +3,7 @@
 Pipeline to predict sgRNAs in batch from a BED file.
 This pipeline was created with the purpose of predicting sgRNAs to assess the presence of a large number of predicted ncRNAs. The concept of prediction was based in the web-based Eukaryotic Pathogen CRISPR guide RNA/DNA Design Tool, which predict sgRNA from the ends of the genes. Our current predictions use the CCTop, tool available, which incorporates an efficiency parameter that considers the number of potential off-targets.
 
-![Prediction model](batch_sgRNA.png)
-
+![Prediction model](sgrna.drawio.png)
 
 ## Pipeline input_primer.sh Overview:
 Reads the input BED file.
