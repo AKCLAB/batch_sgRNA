@@ -5,6 +5,7 @@ This pipeline was created with the purpose of predicting sgRNAs to assess the pr
 
 ![Prediction model](batch_sgRNA.png)
 
+
 ## Pipeline input_primer.sh Overview:
 Reads the input BED file.
 Generates a new BED file with extended coordinates from target gene.
