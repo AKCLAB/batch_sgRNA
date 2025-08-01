@@ -5,6 +5,8 @@ This pipeline was created with the purpose of predicting sgRNAs to assess the pr
 
 
 !https://github.com/AKCLAB/batch_sgRNA/blob/3e62649a2d3d1b7a5a84ba1cfcab58a50919e174/sgrna.drawio.png
+https://drive.google.com/drive/u/0/folders/1TpOtvprlFEHRnOazFtlCcLZBZ2d0PArq
+!batch_sgRNA - Google Drive
 
  Workflow-Tryp-ncRNA.png
 ## Pipeline input_primer.sh Overview:
