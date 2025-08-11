@@ -4,18 +4,20 @@ import pandas as pd
 import os
 
 #python process_outcctop.py
-def process_file(input_xls):
+#python3 posprocessing_outcctop.py output_cctop_initial output_cctop_final cctop_listtop3.tsv
+top = 3
+def process_file(input_xls, position):
     global blocks, block_atual
     blocks = []
     block_atual = {}
 
     filename = os.path.basename(input_xls)
+
     match = re.match(r'^(.*?(?:lncRNA\d+|ncRNA\d+|LBRM\d{5}|LmjF\d{5})).*?(\d{4,}-\d{4,})\.xls$', filename)
-    
     # .*? → Captura o início do nome da amostra de forma preguiçosa.
     # (?:lncRNA\d+|ncRNA\d+|LbrM\d{5}|LmjF\d{5}) → Ponto de corte do nome (último identificador útil).
     # .*?(\d{4,6}-\d{4,6}) → Captura a posição final (ex: 104447-104597).
-    # \.xls$	Termina com .xls
+    # \.xls$	Termina com .xls 
     if match:
         sample = match.group(1) # Save the name nome, example LbrM2903_01_v2_pilon_lncRNA21, regex (?:lncRNA\d+|ncRNA\d+|LbrM\d{5}|LmjF\d{5}) 
       # Segundo padrão: bctg000000062629-2494bctg000000062579-2729.xls
@@ -25,27 +27,28 @@ def process_file(input_xls):
             sample = match.group(1)  # ou group(2), dependendo do que você quiser extrair
         else:
             sample = filename
-
+    info_genomic = False
     with open(input_xls, "r") as f:
         for i, line in enumerate(f):
             if i < 8:
                 continue  # skip the first 8 lines
-            line = line.strip() 
+            line = line.strip()
             if line.startswith("T") and "\t" in line: # identify the prediction with start  (ex: T1, T2...)
                 if block_atual:  # Save the previous block
                     blocks.append(block_atual)
                     block_atual = {} #save information in library
                 parts = line.split("\t")
-                block_atual["name"] = sample 
+                block_atual["name"] = sample
                 block_atual["id"] = parts[0] # Save the first column of line that start with T1
                 #block_atual["sequence"] = parts[1] # Save the second column
                 block_atual["efficiency"] = parts[2]
                 block_atual["efficiency_CRISPRater"] = parts[-1]
+                block_atual["position"] = position
                                             
             elif line.startswith("Chromosome"): # Skip when to identify the line that start with Chromosome
                 info_genomic = True
                 continue  # skip header with name Chromosome
-            elif re.match(r'^(LbrM|chr|contig|bctg|CM)', line):  #If recognize name chromossome with same contain then save 
+            elif re.match(r'^(LbrM|chr|contig|bctg|CM|LmjF|LinJ|Tb)', line):  #If recognize name chromossome with same contain then save 
                 if info_genomic:
                     parts = line.split("\t")
                     block_atual["chr"] = parts[0]
@@ -66,23 +69,41 @@ def process_file(input_xls):
     df["efficiency_CRISPRater"] = pd.to_numeric(df["efficiency_CRISPRater"], errors='coerce')
     df2 = df[df["efficiency"] > 900] # We had consideration this thershold comparing results with high score using Eukaryotic Pathogen CRISPR guide RNA/DNA Design Tool, comparing with CCTOP the same  top sequences present a efficiency with this minimal threshold
     df_sorted = df2.sort_values(by=['efficiency_CRISPRater', 'efficiency'], ascending=False)
-    #top3 = df_sorted.head(3)
-    return df_sorted.head(3) # Save in the top 3 lines, df_sorted 
+    #top = df_sorted.head(3)
+    return df_sorted.head(top) # Save in the top 3 lines, df_sorted 
 
 if __name__ == "__main__":
-    todos_top3 = []
+    if len(sys.argv) != 4:
+        print("Uso: python posprocessing_outcctop.py <dir_initial> <dir_final> <saida.tsv>")
+        sys.exit(1)
 
-    for file in os.listdir("."):
+    dir_initial = sys.argv[1]
+    dir_final = sys.argv[2]
+    output_path = sys.argv[3]
+
+    todos_top = []
+
+    # Processa initial
+    for file in os.listdir(dir_initial):
         if file.endswith(".xls"):
-            top3 = process_file(file)
+            top3 = process_file(os.path.join(dir_initial, file), "upstream")
             if not top3.empty:
-                todos_top3.append(top3)
+                todos_top.append(top3)
 
-    if todos_top3:
-        df_final = pd.concat(todos_top3)
-        df_final = df_final.sort_values(by=['name',  'efficiency_CRISPRater' ], ascending=[True,False])
-        colunas_em_ordem = ['chr','name','target_seq', 'start','end','strand','PAM','id','efficiency','efficiency_CRISPRater']
-        df_final.to_csv("cctop_listtop3.tsv", sep="\t", index=False, columns=colunas_em_ordem)
-        print("We have the best sgRNAs: cctop_listtop3.tsv")
+    # Processa final
+    for file in os.listdir(dir_final):
+        if file.endswith(".xls"):
+            top3 = process_file(os.path.join(dir_final, file), "downstream")
+            if not top3.empty:
+                todos_top.append(top3)
+
+    if todos_top:
+        df_final = pd.concat(todos_top)
+        df_final = df_final.sort_values(by=['name', 'efficiency_CRISPRater'], ascending=[True, False])
+        colunas_em_ordem = ['chr', 'name', 'target_seq', 'start', 'end', 'strand', 'PAM', 'id', 'efficiency', 'efficiency_CRISPRater', 'position']
+        df_final.to_csv(output_path, sep="\t", index=False, columns=colunas_em_ordem)
+        print("We have the best sgRNAs: {}".format(output_path))
+
     else:
-        print("No valid top3 found")
+        print("No valid top found")
+
