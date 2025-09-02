@@ -55,8 +55,8 @@ awk -v dist_chr="$dist_chr" -v dist_target="$dist_target" 'BEGIN{OFS="\t"} {
 }' "$bedfile" > "${outname}_final.bed"
 
 echo "Extraction of fasta from new position according to target"
-bedtools getfasta -fi "$fasta" -bed "${outname}_final.bed" -fo "${outname}_initial.fasta" -name+
-bedtools getfasta -fi "$fasta" -bed "${outname}_initial.bed" -fo "${outname}_final.fasta" -name+
+bedtools getfasta -fi "$fasta" -bed "${outname}_initial.bed" -fo "${outname}_initial.fasta" -name+
+bedtools getfasta -fi "$fasta" -bed "${outname}_final.bed" -fo "${outname}_final.fasta" -name+
 
 # verify the index files or run reference index 
 ref_name=$(basename "$fasta" .fasta)
