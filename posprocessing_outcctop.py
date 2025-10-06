@@ -2,6 +2,7 @@ import re
 import sys
 import pandas as pd
 import os
+from Bio import SeqIO
 
 #python process_outcctop.py
 #python3 posprocessing_outcctop.py output_cctop_initial output_cctop_final cctop_listtop3.tsv
@@ -65,6 +66,46 @@ def process_file(input_xls, position):
 
     df = pd.DataFrame(blocks)
 
+        # carregar genoma em dicionário
+    genome = SeqIO.to_dict(SeqIO.parse(fasta, "fasta"))
+
+
+    # listas para guardar sequências
+    seq1_list = []
+
+    for idx, row in df.iterrows():
+            
+        if row["position"] == "downstream" :
+        
+            if row["strand"] == "+" :
+                chrom = row["chr"]
+                hr1 = int(row["end"]) - 6 
+                # extrair fragmentos de 30 nt (ajustando para 0-based do python)
+                seq1 = genome[chrom].seq[hr1:hr1+30]
+                seq1_list.append(str(seq1))
+
+            elif row["strand"] =="-" :
+                chrom = row["chr"]
+                hr1 = int(row["start"]) + 5 
+                seq1 = genome[chrom].seq[hr1:hr1+30].reverse_complement()
+                seq1_list.append(str(seq1))
+                
+        if row["position"] == "upstream" :
+            if row["strand"] == "+" :
+                chrom = row["chr"]
+                hr1 = int(row["end"]) - 6 
+                # extrair fragmentos de 30 nt (ajustando para 0-based do python)
+                seq1 = genome[chrom].seq[hr1-30:hr1]                
+                seq1_list.append(str(seq1))
+
+            elif row["strand"] =="-" :
+                chrom = row["chr"]
+                hr1 = int(row["start"]) + 5 
+                seq1 = genome[chrom].seq[hr1-30:hr1].reverse_complement()
+                seq1_list.append(str(seq1))
+            # adicionar colunas na tabela
+    df["HR"] = seq1_list
+
     df["efficiency"] = pd.to_numeric(df["efficiency"], errors='coerce').fillna(0).astype(int)
     df["efficiency_CRISPRater"] = pd.to_numeric(df["efficiency_CRISPRater"], errors='coerce')
     df2 = df[df["efficiency"] > 900] # We had consideration this thershold comparing results with high score using Eukaryotic Pathogen CRISPR guide RNA/DNA Design Tool, comparing with CCTOP the same  top sequences present a efficiency with this minimal threshold
@@ -73,13 +114,13 @@ def process_file(input_xls, position):
     return df_sorted.head(top) # Save in the top 3 lines, df_sorted 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
-        print("Uso: python posprocessing_outcctop.py <dir_initial> <dir_final> <saida.tsv>")
+    if len(sys.argv) != 5:
+        print("Uso: python posprocessing_outcctop.py <fasta> <dir_initial> <dir_final> <saida.tsv>")
         sys.exit(1)
-
-    dir_initial = sys.argv[1]
-    dir_final = sys.argv[2]
-    output_path = sys.argv[3]
+    fasta = sys.argv[1]
+    dir_initial = sys.argv[2]
+    dir_final = sys.argv[3]
+    output_path = sys.argv[4]
 
     todos_top = []
 
@@ -100,7 +141,7 @@ if __name__ == "__main__":
     if todos_top:
         df_final = pd.concat(todos_top)
         df_final = df_final.sort_values(by=['name', 'efficiency_CRISPRater'], ascending=[True, False])
-        colunas_em_ordem = ['chr', 'name', 'target_seq', 'start', 'end', 'strand', 'PAM', 'id', 'efficiency', 'efficiency_CRISPRater', 'position']
+        colunas_em_ordem = ['chr', 'name', 'target_seq', 'start', 'end', 'strand', 'PAM', 'id', 'efficiency', 'efficiency_CRISPRater', 'position', 'HR']
         df_final.to_csv(output_path, sep="\t", index=False, columns=colunas_em_ordem)
         print("We have the best sgRNAs: {}".format(output_path))
 

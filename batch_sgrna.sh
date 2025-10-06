@@ -85,6 +85,5 @@ echo "Running cctop"
 cctop --input "${outname}_initial.fasta" --index "$ref_name" --output "${path_script}/output_cctop_initial"
 cctop --input "${outname}_final.fasta" --index "$ref_name" --output "${path_script}/output_cctop_final"
 
-echo "pos-processing output cctop for all genes"
+python3 "$path_script/posprocessing_outcctop.py" "$fasta" "$path_script/output_cctop_initial" "$path_script/output_cctop_final" "$path_script/cctop_listtop.tsv"
 
-python3 "${path_script}/posprocessing_outcctop.py" "${path_script}/output_cctop_initial" "${path_script}/output_cctop_final" "${path_script}/cctop_listtop.tsv"
