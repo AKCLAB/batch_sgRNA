@@ -32,16 +32,17 @@ bedtools
 
 ## Invoking batch_sgRNA:
 ```
-bash /path/to/batch_sgRNA/batch_sgrna.sh -bedfile /path/to/batch_sgRNA/test/file.bed -reffasta /path/to/batch_sgRNA/test/referencegenome.fasta -dist_chr 100 -dist_target 0 -outname targetprimer
+bash /path/to/batch_sgRNA/batch_sgrna.sh -bedfile /path/to/batch_sgRNA/test/file.bed -reffasta /path/to/batch_sgRNA/test/referencegenome.fasta -dist_chr 100 -dist_target 0 -outname targetprimer -refgff /path/to/batch_sgRNA/test/referencegenome.gff
 bash /path/to/batch_sgRNA/batch_sgrna.sh -bedfile /path/to/batch_sgRNA/test/file.bed -reffasta /path/to/batch_sgRNA/test/referencegenome.fasta
 ```
 
 ## Test diretory
 ```
-bash batch_sgrna.sh -bedfile /cctop_standalone/batch_sgRNA/test/ncrna_teste.bed -reffasta /cctop_standalone/batch_sgRNA/test/LBRAZ_M2903.Dec2022.fasta -dist_chr 100 -dist_target 0 -outname targetprimer
+bash batch_sgrna.sh -bedfile /cctop_standalone/batch_sgRNA/test/ncrna_teste.bed -reffasta /cctop_standalone/batch_sgRNA/test/LBRAZ_M2903.Dec2022.fasta -dist_chr 100 -dist_target 0 -outname targetprimer -refgff /cctop_standalone/batch_sgRNA/test/LBRAZ_M2903.Dec2022_noncoding.gff
 ```
 genome ref: LBRAZ_M2903.Dec2022.fasta
 bed file: ncrna_teste.bed
+optional gff ref: LBRAZ_M2903.Dec2022_noncoding.gff
 
 ## Outputs:
 - outname_initial.bed: new coordenates of  5′ upstream regions of the gene
@@ -51,7 +52,7 @@ bed file: ncrna_teste.bed
 - output_cctop/*.xls
 - output_cctop/*.bed
 - output_cctop/*.fasta
-- output_cctop/cctop_listtop3.tsv
+- output_cctop/cctop_listtop.tsv
 
 python3 posprocessing_outcctop.py
 

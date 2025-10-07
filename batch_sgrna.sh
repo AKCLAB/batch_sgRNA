@@ -1,15 +1,15 @@
 # Function to display usage information
 usage() {
-    echo "Usage: $0 -bedfile <file> -reffasta <file> [-dist_chr <value>] [-dist_target <value>] [-outname <file>]"
-
+    echo "Usage: $0 -bedfile <file> -reffasta <file> [-dist_chr <value>] [-dist_target <value>] [-outname <file>] -refgff <file>"
     echo "  -bedfile: bed file" # model line file: LbrM2903_01_v2_pilon    104547  104783  LbrM2903_01_v2_pilon_lncRNA21   .       +
     echo "  -reffasta: Reference genome FASTA file"
     echo "  -dist_chr: extended size on the chromosome position (optional, default=100)" # To predict sgRNAs, we need to extend the nucleotide information from the start and end position of a target gene, usually it should match at a maximum distance of 100 nucleotides from the start and end position of the gene.
     echo "  -dist_target: extended size on the target position (optional, default=50)" 
     echo "  -outname: name of output bed (optional, default name=targetprimer)"
+    echo "  -refgff: name of output bed (optional)"
     exit 1
 }
-#bash batch_sgrna.sh -bedfile ncrna_teste.bed -reffasta LBRAZ_M2903.Dec2022.fasta -dist_chr 100 -dist_target 50 -outname targetprimer
+#bash batch_sgrna.sh -bedfile test/ncrna_teste.bed -reffasta test/LBRAZ_M2903.Dec2022.fasta -dist_chr 100 -dist_target 0 -outname targetprimer -refgff test/LBRAZ_M2903.Dec2022_noncoding.gff
 # Parse command-line arguments
 while [[ $# -gt 0 ]]; do
     key="$1"
@@ -19,10 +19,10 @@ while [[ $# -gt 0 ]]; do
         -dist_chr) dist_chr="$2"; shift; shift ;;
         -dist_target) dist_target="$2"; shift; shift ;;
         -outname) outname="$2"; shift; shift ;;
+        -refgff) gff="$2"; shift; shift ;;
         *) usage ;;
     esac
 done
-
 
 # Check if all variables are set
 if [ -z "$bedfile" ] || [ -z "$fasta" ]; then
@@ -39,6 +39,7 @@ echo "extended size on the chromosome position: $dist_chr"
 echo "extended size on the target position: $dist_target"
 echo "Reference FASTA: $fasta"
 echo "output bed: $outname"
+echo "optional gff File: $gff"
 
 echo "Extract fasta of initial chomossomal position of ncRNA"
 awk -v dist_chr="$dist_chr" -v dist_target="$dist_target" 'BEGIN{OFS="\t"} {
@@ -85,5 +86,4 @@ echo "Running cctop"
 cctop --input "${outname}_initial.fasta" --index "$ref_name" --output "${path_script}/output_cctop_initial"
 cctop --input "${outname}_final.fasta" --index "$ref_name" --output "${path_script}/output_cctop_final"
 
-python3 "$path_script/posprocessing_outcctop.py" "$fasta" "$path_script/output_cctop_initial" "$path_script/output_cctop_final" "$path_script/cctop_listtop.tsv"
-
+python3 "$path_script/posprocessing_outcctop.py" "$fasta" "$path_script/output_cctop_initial" "$path_script/output_cctop_final" "$path_script/cctop_listtop.tsv" "$gff"

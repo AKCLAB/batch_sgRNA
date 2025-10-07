@@ -5,7 +5,7 @@ import os
 from Bio import SeqIO
 
 #python process_outcctop.py
-#python3 posprocessing_outcctop.py output_cctop_initial output_cctop_final cctop_listtop3.tsv
+#python3 posprocessing_outcctop.py output_cctop_initial output_cctop_final cctop_listtop.tsv
 top = 3
 def process_file(input_xls, position):
     global blocks, block_atual
@@ -66,10 +66,8 @@ def process_file(input_xls, position):
 
     df = pd.DataFrame(blocks)
 
-        # carregar genoma em dicionário
+    # carregar genoma em dicionário
     genome = SeqIO.to_dict(SeqIO.parse(fasta, "fasta"))
-
-
     # listas para guardar sequências
     seq1_list = []
 
@@ -105,6 +103,51 @@ def process_file(input_xls, position):
                 seq1_list.append(str(seq1))
             # adicionar colunas na tabela
     df["HR"] = seq1_list
+    df["start"] = df["start"].astype(int)
+    df["end"] = df["end"].astype(int)
+
+    if gff and gff.strip():
+        print(f"Verificando sobreposição usando {gff} ...")
+        # Function to extract the ID from the 9th column in a GFF file
+        def extract_info(text):
+            id_match = re.search(r'ID=([^;]+)', text)  # extract ID after "ID=" and before ";"
+            id_value = id_match.group(1) if id_match else None
+            return id_value
+
+        # Cria uma Series booleana de False para indicar sobreposição global
+        df["overlap"] = False
+
+        with open(gff, 'r') as fh_cds:
+            # Verify lncRNA overlapping on CDsA
+            for cds_row in fh_cds:
+                if cds_row.startswith("#"):
+                    continue
+                # Split the line into columns
+                cds_fields = cds_row.strip().split("\t")
+                # Check if the line is a CDS entry
+                if cds_fields[2] in ["gene"]:
+                    # Extract the ID from the 9th column (index 8)
+                    cds_id = extract_info(cds_fields[8])
+                    cds_chr, cds_coordi, cds_coordf, cds_strand = cds_fields[0],  int(cds_fields[3]), int(cds_fields[4]), cds_fields[6]
+                    # Seleciona linhas no mesmo cromossomo
+                    same_chr = df["chr"] == cds_chr
+                    
+                    # Verifica sobreposição (intervalos que se cruzam)
+                    mask_overlap = (
+                        ((df["start"] >= cds_coordi) & (df["start"] <= cds_coordf)) |
+                        ((df["end"] >= cds_coordi) & (df["end"] <= cds_coordf)) |
+                        ((cds_coordi >= df["start"]) & (cds_coordi <= df["end"])) |
+                        ((cds_coordf >= df["start"]) & (cds_coordf <= df["end"]))
+                    )
+                    #((df["start"] >= cds_coordi) & (df["start"] <= cds_coordf))→ o start da sgRNA está dentro do CDS (início do sgRNA entre o início e o fim do CDS).
+                    #((df["end"] >= cds_coordi) & (df["end"] <= cds_coordf)) → o end do sgRNA está dentro do CDS.
+                    #((cds_coordi >= df["start"]) & (cds_coordi <= df["end"]))→ o início do CDS está dentro do intervalo do sgRNA (CDS começa dentro do sgRNA).
+                    #((cds_coordf >= df["start"]) & (cds_coordf <= df["end"]))→ o fim do CDS está dentro do intervalo do sgRNA
+
+                    df.loc[same_chr & mask_overlap, "overlap"] = True
+
+        # Mantém apenas as que NÃO sobrepõem com nenhum gene
+        df = df[~df["overlap"]].drop(columns="overlap")
 
     df["efficiency"] = pd.to_numeric(df["efficiency"], errors='coerce').fillna(0).astype(int)
     df["efficiency_CRISPRater"] = pd.to_numeric(df["efficiency_CRISPRater"], errors='coerce')
@@ -114,14 +157,15 @@ def process_file(input_xls, position):
     return df_sorted.head(top) # Save in the top 3 lines, df_sorted 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 5:
-        print("Uso: python posprocessing_outcctop.py <fasta> <dir_initial> <dir_final> <saida.tsv>")
+    # Espera 4 ou 5 argumentos
+    if len(sys.argv) < 5 or len(sys.argv) > 6:
+        print("Uso: python posprocessing_outcctop.py <fasta> <dir_initial> <dir_final> <saida.tsv> <gff>")
         sys.exit(1)
     fasta = sys.argv[1]
     dir_initial = sys.argv[2]
     dir_final = sys.argv[3]
     output_path = sys.argv[4]
-
+    gff = sys.argv[5] if len(sys.argv) == 6 else None  # opcional
     todos_top = []
 
     # Processa initial
