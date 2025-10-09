@@ -3,9 +3,7 @@ import sys
 import pandas as pd
 import os
 from Bio import SeqIO
-
-#python process_outcctop.py
-#python3 posprocessing_outcctop.py output_cctop_initial output_cctop_final cctop_listtop.tsv
+#python3 posprocessing_outcctop.py file.fasta output_cctop_initial output_cctop_final cctop_listtop.tsv file.gff
 top = 3
 def process_file(input_xls, position):
     global blocks, block_atual
@@ -13,19 +11,21 @@ def process_file(input_xls, position):
     block_atual = {}
 
     filename = os.path.basename(input_xls)
-
-    match = re.match(r'^(.*?(?:lncRNA\d+|ncRNA\d+|LBRM\d{5}|LmjF\d{5})).*?(\d{4,}-\d{4,})\.xls$', filename)
+    #Extract name from sample file
+    #match = re.match(r'^(.*?(?:lncRNA\d+|ncRNA\d+|LBRM\d{5}|LmjF\d{5})).*?(\d{4,}-\d{4,})\.xls$', filename)
+    match = re.match(r'^(.*?)(?:_)?((?:lncRNA\d+|ncRNA\d+|LBRM\d{5}|LmjF\d{5})).*?(\d{4,}-\d{4,})\.xls$', filename)
     # .*? → Captura o início do nome da amostra de forma preguiçosa.
     # (?:lncRNA\d+|ncRNA\d+|LbrM\d{5}|LmjF\d{5}) → Ponto de corte do nome (último identificador útil).
     # .*?(\d{4,6}-\d{4,6}) → Captura a posição final (ex: 104447-104597).
     # \.xls$	Termina com .xls 
     if match:
-        sample = match.group(1) # Save the name nome, example LbrM2903_01_v2_pilon_lncRNA21, regex (?:lncRNA\d+|ncRNA\d+|LbrM\d{5}|LmjF\d{5}) 
-      # Segundo padrão: bctg000000062629-2494bctg000000062579-2729.xls
+        chromosome = match.group(1)  # ex: LbrM2903_01_v2_pilon ou bctg00000022
+        sample = f"{match.group(1)}_{match.group(2)}"  # ex: LbrM2903_01_v2_pilon_lncRNA21
+    # Segundo padrão: bctg000000062629-2494bctg000000062579-2729.xls
     else:
         match = re.match(r'^(bctg\d+-\d+)(bctg\d+-\d+)\.xls$', filename)
         if match:
-            sample = match.group(1)  # ou group(2), dependendo do que você quiser extrair
+            sample = match.group(1)
         else:
             sample = filename
     info_genomic = False
@@ -49,45 +49,47 @@ def process_file(input_xls, position):
             elif line.startswith("Chromosome"): # Skip when to identify the line that start with Chromosome
                 info_genomic = True
                 continue  # skip header with name Chromosome
-            elif re.match(r'^(LbrM|chr|contig|bctg|CM|LmjF|LinJ|Tb)', line):  #If recognize name chromossome with same contain then save 
-                if info_genomic:
+            if info_genomic and re.match(r'^(?:LbrM|chr|contig|bctg|CM|LmjF|LinJ|Tb)', line):
+                parts = line.split("\t")
+                # Cheack at least 6 columns
+                if len(parts) < 6:
+                    #  Ignore
+                    continue
+                chrom_in_line = parts[0].strip()
+                # Continue saving if the chromossome is the same the chromossome from name  file
+                if chromosome and chrom_in_line == chromosome:
                     parts = line.split("\t")
                     block_atual["chr"] = parts[0]
                     block_atual["start"] = parts[1]
                     block_atual["end"] = parts[2]
                     block_atual["strand"] = parts[3]
-                    block_atual["target_seq"] = parts[5]
+                    block_atual["target_seq"] = parts[5] # sgRNA sequence
                     block_atual["PAM"] = parts[6]
                     info_genomic = False
-
-        # Salva o último bloco
+        # Save the last block
         if block_atual:
             blocks.append(block_atual)
-
     df = pd.DataFrame(blocks)
 
-    # carregar genoma em dicionário
+    # Load genome into a dictionary to extract 30 nt for homologous recombination following the cut site of the PAM sequence at the 3′ end of the guide sequence
     genome = SeqIO.to_dict(SeqIO.parse(fasta, "fasta"))
-    # listas para guardar sequências
+    # List to save sequence
     seq1_list = []
-
-    for idx, row in df.iterrows():
-            
+    for idx, row in df.iterrows():  
+        #Cut site at the PAM sequence on the 3′ end of the guide of downstream target region.
         if row["position"] == "downstream" :
-        
             if row["strand"] == "+" :
                 chrom = row["chr"]
                 hr1 = int(row["end"]) - 6 
                 # extrair fragmentos de 30 nt (ajustando para 0-based do python)
                 seq1 = genome[chrom].seq[hr1:hr1+30]
                 seq1_list.append(str(seq1))
-
             elif row["strand"] =="-" :
                 chrom = row["chr"]
                 hr1 = int(row["start"]) + 5 
                 seq1 = genome[chrom].seq[hr1:hr1+30].reverse_complement()
                 seq1_list.append(str(seq1))
-                
+        #Cut site at the PAM sequence on the 3′ end of the guide of upstream target region.        
         if row["position"] == "upstream" :
             if row["strand"] == "+" :
                 chrom = row["chr"]
@@ -95,7 +97,6 @@ def process_file(input_xls, position):
                 # extrair fragmentos de 30 nt (ajustando para 0-based do python)
                 seq1 = genome[chrom].seq[hr1-30:hr1]                
                 seq1_list.append(str(seq1))
-
             elif row["strand"] =="-" :
                 chrom = row["chr"]
                 hr1 = int(row["start"]) + 5 
@@ -106,6 +107,7 @@ def process_file(input_xls, position):
     df["start"] = df["start"].astype(int)
     df["end"] = df["end"].astype(int)
 
+    # If GFF is provided, it checks to remove sgRNA overlap CDs or ncRNA.
     if gff and gff.strip():
         print(f"Verificando sobreposição usando {gff} ...")
         # Function to extract the ID from the 9th column in a GFF file
@@ -114,25 +116,21 @@ def process_file(input_xls, position):
             id_value = id_match.group(1) if id_match else None
             return id_value
 
-        # Cria uma Series booleana de False para indicar sobreposição global
+        # Creates a Boolean Series of False to indicate global overlap
         df["overlap"] = False
-
         with open(gff, 'r') as fh_cds:
-            # Verify lncRNA overlapping on CDsA
+            # Verify sgRNA overlapping on CDsA
             for cds_row in fh_cds:
                 if cds_row.startswith("#"):
                     continue
                 # Split the line into columns
                 cds_fields = cds_row.strip().split("\t")
-                # Check if the line is a CDS entry
-                if cds_fields[2] in ["gene"]:
-                    # Extract the ID from the 9th column (index 8)
-                    cds_id = extract_info(cds_fields[8])
-                    cds_chr, cds_coordi, cds_coordf, cds_strand = cds_fields[0],  int(cds_fields[3]), int(cds_fields[4]), cds_fields[6]
-                    # Seleciona linhas no mesmo cromossomo
+                # Check if the line is a CDS or ncRNA
+                if cds_fields[2] in ["CDS", "ncRNA"]:
+                    cds_chr, cds_coordi, cds_coordf = cds_fields[0],  int(cds_fields[3]), int(cds_fields[4])
+                    # if the sgRNA is in the same CDS or ncRNA
                     same_chr = df["chr"] == cds_chr
-                    
-                    # Verifica sobreposição (intervalos que se cruzam)
+                    # Verify overlapping
                     mask_overlap = (
                         ((df["start"] >= cds_coordi) & (df["start"] <= cds_coordf)) |
                         ((df["end"] >= cds_coordi) & (df["end"] <= cds_coordf)) |
@@ -143,17 +141,14 @@ def process_file(input_xls, position):
                     #((df["end"] >= cds_coordi) & (df["end"] <= cds_coordf)) → o end do sgRNA está dentro do CDS.
                     #((cds_coordi >= df["start"]) & (cds_coordi <= df["end"]))→ o início do CDS está dentro do intervalo do sgRNA (CDS começa dentro do sgRNA).
                     #((cds_coordf >= df["start"]) & (cds_coordf <= df["end"]))→ o fim do CDS está dentro do intervalo do sgRNA
-
                     df.loc[same_chr & mask_overlap, "overlap"] = True
-
-        # Mantém apenas as que NÃO sobrepõem com nenhum gene
+        # Keep only those that do NOT overlap with any gene
         df = df[~df["overlap"]].drop(columns="overlap")
 
     df["efficiency"] = pd.to_numeric(df["efficiency"], errors='coerce').fillna(0).astype(int)
     df["efficiency_CRISPRater"] = pd.to_numeric(df["efficiency_CRISPRater"], errors='coerce')
     df2 = df[df["efficiency"] > 900] # We had consideration this thershold comparing results with high score using Eukaryotic Pathogen CRISPR guide RNA/DNA Design Tool, comparing with CCTOP the same  top sequences present a efficiency with this minimal threshold
     df_sorted = df2.sort_values(by=['efficiency_CRISPRater', 'efficiency'], ascending=False)
-    #top = df_sorted.head(3)
     return df_sorted.head(top) # Save in the top 3 lines, df_sorted 
 
 if __name__ == "__main__":
@@ -168,14 +163,14 @@ if __name__ == "__main__":
     gff = sys.argv[5] if len(sys.argv) == 6 else None  # opcional
     todos_top = []
 
-    # Processa initial
+    # Import initial file
     for file in os.listdir(dir_initial):
         if file.endswith(".xls"):
             top3 = process_file(os.path.join(dir_initial, file), "upstream")
             if not top3.empty:
                 todos_top.append(top3)
 
-    # Processa final
+    # Import final file
     for file in os.listdir(dir_final):
         if file.endswith(".xls"):
             top3 = process_file(os.path.join(dir_final, file), "downstream")
