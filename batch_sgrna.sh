@@ -30,7 +30,7 @@ if [ -z "$bedfile" ] || [ -z "$fasta" ]; then
 fi
 # Set default values
 dist_chr="${dist_chr:-100}"
-dist_target="${dist_target:-50}"
+dist_target="${dist_target:-0}"
 outname="${outname:-targetprimer}"
 
 # Now use these variables in your script
