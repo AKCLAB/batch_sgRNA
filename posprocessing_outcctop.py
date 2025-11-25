@@ -3,7 +3,7 @@ import sys
 import pandas as pd
 import os
 from Bio import SeqIO
-#python3 posprocessing_outcctop.py file.fasta output_cctop_initial output_cctop_final cctop_listtop.tsv file.gff
+#python3 posprocessing_outcctop.py file.fasta output_cctop_initial output_cctop_final cctop_listtop.tsv file.gff ncnrna.bed
 top = 3
 def process_file(input_xls, position):
     global blocks, block_atual
@@ -76,34 +76,41 @@ def process_file(input_xls, position):
     # Load genome into a dictionary to extract 30 nt for homologous recombination following the cut site of the PAM sequence at the 3′ end of the guide sequence
     genome = SeqIO.to_dict(SeqIO.parse(fasta, "fasta"))
     # List to save sequence
+    dic = {}
+    with open(bed, 'r') as bedfile:
+        bedfile_lines = bedfile.readlines()  # Read transcript_50
+        for bed_row in bedfile_lines:
+            bed_row = bed_row.strip()  # Remove spaces
+            bed_fields = bed_row.split("\t")  # Split columns
+            bed_name = bed_fields[3] 
+            bed_strand = bed_fields[5] 
+            dic[bed_name] = bed_strand 
     seq1_list = []
     for idx, row in df.iterrows():  
         #Cut site at the PAM sequence on the 3′ end of the guide of downstream target region.
         if row["position"] == "downstream" :
+            chrom = row["Chromosome"]
             if row["strand"] == "+" :
-                chrom = row["Chromosome"]
                 hr1 = int(row["end"]) - 6 
-                # extract fragments of 30 nt (adjusting for 0-based python)
-                seq1 = genome[chrom].seq[hr1:hr1+30]
-                seq1_list.append(str(seq1))
             elif row["strand"] =="-" :
-                chrom = row["Chromosome"]
                 hr1 = int(row["start"]) + 5 
-                seq1 = genome[chrom].seq[hr1:hr1+30].reverse_complement()
-                seq1_list.append(str(seq1))
+                # extract fragments of 30 nt (adjusting for 0-based python)
+            strand_sgrna = dic.get(row["name"]) 
+            seq_ref = genome[chrom].seq[hr1:hr1+30]
+            seq1 = seq_ref if strand_sgrna == "+" else seq_ref.reverse_complement()
+            seq1_list.append(str(seq1))
         #Cut site at the PAM sequence on the 3′ end of the guide of upstream target region.        
         if row["position"] == "upstream" :
-            if row["strand"] == "+" :
-                chrom = row["Chromosome"]
+            chrom = row["Chromosome"]
+            if row["strand"] == "+" : 
                 hr1 = int(row["end"]) - 6 
-                # extract fragments of 30 nt (adjusting for 0-based python)
-                seq1 = genome[chrom].seq[hr1-30:hr1]                
-                seq1_list.append(str(seq1))
             elif row["strand"] =="-" :
-                chrom = row["Chromosome"]
                 hr1 = int(row["start"]) + 5 
-                seq1 = genome[chrom].seq[hr1-30:hr1].reverse_complement()
-                seq1_list.append(str(seq1))
+            strand_sgrna = dic.get(row["name"]) 
+            # extract fragments of 30 nt (adjusting for 0-based python)
+            seq_ref = genome[chrom].seq[hr1-30:hr1]     
+            seq1 = seq_ref if strand_sgrna == "+" else seq_ref.reverse_complement()           
+            seq1_list.append(str(seq1))
     df["HR"] = seq1_list #new column
     df["start"] = df["start"].astype(int)
     df["end"] = df["end"].astype(int)
@@ -138,6 +145,10 @@ def process_file(input_xls, position):
                         ((cds_coordi >= df["start"]) & (cds_coordi <= df["end"])) |
                         ((cds_coordf >= df["start"]) & (cds_coordf <= df["end"]))
                     )
+                    #((df["start"] >= cds_coordi) & (df["start"] <= cds_coordf))→ o start da sgRNA está dentro do CDS (início do sgRNA entre o início e o fim do CDS).
+                    #((df["end"] >= cds_coordi) & (df["end"] <= cds_coordf)) → o end do sgRNA está dentro do CDS.
+                    #((cds_coordi >= df["start"]) & (cds_coordi <= df["end"]))→ o início do CDS está dentro do intervalo do sgRNA (CDS começa dentro do sgRNA).
+                    #((cds_coordf >= df["start"]) & (cds_coordf <= df["end"]))→ o fim do CDS está dentro do intervalo do sgRNA
                     df.loc[same_chr & mask_overlap, "overlap"] = True
         if df.empty:
             return pd.DataFrame()  
@@ -150,22 +161,21 @@ def process_file(input_xls, position):
             df.at[idx, "end"] = row["end"] - 3
     df["efficiency"] = pd.to_numeric(df["efficiency"], errors='coerce').fillna(0).astype(int)
     df["efficiency_CRISPRater"] = pd.to_numeric(df["efficiency_CRISPRater"], errors='coerce')
-    df2 = df[df["efficiency"] > 900] # We had consideration this thershold comparing results with high score using Eukaryotic Pathogen CRISPR guide RNA/DNA Design Tool, comparing with CCTOP the same  top sequences present a efficiency with this minimal threshold
+    df2 = df[df["efficiency"] >= 900] # We had consideration this thershold comparing results with high score using Eukaryotic Pathogen CRISPR guide RNA/DNA Design Tool, comparing with CCTOP the same  top sequences present a efficiency with this minimal threshold
     df_sorted = df2.sort_values(by=['efficiency_CRISPRater', 'efficiency'], ascending=False)
     return df_sorted.head(top) # Save in the top lines, df_sorted 
 
 if __name__ == "__main__":
-    # Espera 4 ou 5 argumentos
-    if len(sys.argv) < 5 or len(sys.argv) > 6:
-        print("Uso: python posprocessing_outcctop.py <fasta> <dir_initial> <dir_final> <saida.tsv> <gff>")
+    if len(sys.argv) not in [6, 7]:
+        print("Uso: python posprocessing_outcctop.py <fasta> <dir_initial> <dir_final> <path> <bed> <gff_opcional>")
         sys.exit(1)
     fasta = sys.argv[1]
     dir_initial = sys.argv[2]
     dir_final = sys.argv[3]
     output_path = sys.argv[4]
-    gff = sys.argv[5] if len(sys.argv) == 6 else None  # opcional
+    bed = sys.argv[5]
+    gff = sys.argv[6] if len(sys.argv) == 7 else None  # opcional
     todos_top = []
-
     # Import initial file
     for file in os.listdir(dir_initial):
         if file.endswith(".xls"):

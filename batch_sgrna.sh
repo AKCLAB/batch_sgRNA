@@ -86,4 +86,4 @@ echo "Running cctop"
 cctop --input "${outname}_initial.fasta" --index "$ref_name" --output "${path_script}/output_cctop_initial"
 cctop --input "${outname}_final.fasta" --index "$ref_name" --output "${path_script}/output_cctop_final"
 
-python3 "$path_script/posprocessing_outcctop.py" "$fasta" "$path_script/output_cctop_initial" "$path_script/output_cctop_final" "$path_script/cctop_listtop.tsv" "$gff"
+python3 "$path_script/posprocessing_outcctop.py" "$fasta" "$path_script/output_cctop_initial" "$path_script/output_cctop_final" "$path_script/cctop_listtop.tsv" "$bedfile" "$gff" 
