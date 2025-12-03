@@ -86,9 +86,10 @@ def process_file(input_xls, position):
             bed_strand = bed_fields[5] 
             dic[bed_name] = bed_strand 
     seq1_list = []
+    flank = ""
     for idx, row in df.iterrows():  
-        #Cut site at the PAM sequence on the 3′ end of the guide of downstream target region.
-        if row["position"] == "downstream" :
+        #Cut site at the PAM sequence on the 3′ end of the guide of down target region.
+        if row["position"] == "down" :
             chrom = row["Chromosome"]
             if row["strand"] == "+" :
                 hr1 = int(row["end"]) - 6 
@@ -97,21 +98,24 @@ def process_file(input_xls, position):
                 # extract fragments of 30 nt (adjusting for 0-based python)
             strand_sgrna = dic.get(row["name"]) 
             seq_ref = genome[chrom].seq[hr1:hr1+30]
-            seq1 = seq_ref if strand_sgrna == "+" else seq_ref.reverse_complement()
+            seq1 = seq_ref.reverse_complement()
+            flank = "downstream" if strand_sgrna == "+" else "upstream" 
             seq1_list.append(str(seq1))
-        #Cut site at the PAM sequence on the 3′ end of the guide of upstream target region.        
-        if row["position"] == "upstream" :
+        #Cut site at the PAM sequence on the 3′ end of the guide of up target region.        
+        if row["position"] == "up" :
             chrom = row["Chromosome"]
-            if row["strand"] == "+" : 
+            if row["strand"] == "+" : #Strand of sgRNA
                 hr1 = int(row["end"]) - 6 
-            elif row["strand"] =="-" :
+            elif row["strand"] =="-" :  #Strand of sgRNA
                 hr1 = int(row["start"]) + 5 
             strand_sgrna = dic.get(row["name"]) 
             # extract fragments of 30 nt (adjusting for 0-based python)
             seq_ref = genome[chrom].seq[hr1-30:hr1]     
-            seq1 = seq_ref if strand_sgrna == "+" else seq_ref.reverse_complement()           
+            seq1 = seq_ref    
+            flank = "upstream" if strand_sgrna == "+" else "downstream"  
             seq1_list.append(str(seq1))
     df["HR"] = seq1_list #new column
+    df["flankindg_region"] = flank
     df["start"] = df["start"].astype(int)
     df["end"] = df["end"].astype(int)
     
@@ -179,9 +183,9 @@ if __name__ == "__main__":
     # Import initial file
     for file in os.listdir(dir_initial):
         if file.endswith(".xls"):
-            top3 = process_file(os.path.join(dir_initial, file), "upstream")
+            top3 = process_file(os.path.join(dir_initial, file), "up")
             if top3 is None:
-                print(f"⚠️ Nenhum dado válido encontrado em: {file} (upstream) → ignorado.")
+                print(f"⚠️ Nenhum dado válido encontrado em: {file} (up) → ignorado.")
                 continue
             if not top3.empty:
                 todos_top.append(top3)
@@ -191,7 +195,7 @@ if __name__ == "__main__":
     # Import final file
     for file in os.listdir(dir_final):
         if file.endswith(".xls"):
-            top3 = process_file(os.path.join(dir_final, file), "downstream")
+            top3 = process_file(os.path.join(dir_final, file), "down")
             if top3 is None:
                 print(f"⚠️ Nenhum dado válido encontrado em: {file} → ignorado.")
                 continue
@@ -203,7 +207,7 @@ if __name__ == "__main__":
     if todos_top:
         df_final = pd.concat(todos_top)
         df_final = df_final.sort_values(by=['name', 'efficiency_CRISPRater'], ascending=[True, False])
-        colunas_em_ordem = ['Chromosome', 'name', 'target_seq', 'start', 'end', 'strand', 'PAM', 'id', 'efficiency', 'efficiency_CRISPRater', 'position', 'HR']
+        colunas_em_ordem = ['Chromosome', 'name', 'target_seq', 'start', 'end', 'strand', 'PAM', 'id', 'efficiency', 'efficiency_CRISPRater', 'position', 'HR', 'flankindg_region']
         df_final.to_csv(output_path, sep="\t", index=False, columns=colunas_em_ordem)
         print("We have the best sgRNAs: {}".format(output_path))
 
