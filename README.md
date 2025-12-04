@@ -17,6 +17,7 @@ posprocessing_outcctop.py: Compiles a table with the top 3 sgRNAs predicted by C
 - dist_chr = 100 (default).
 - dist_target = 0 (default). This value can be adjusted if necessary: use 50 when the knockout should in some cases occur within the target gene; use 0 if the knockout does not need to fall inside the gene.
 - targetprimer: work name
+- -refgff = gff file
 
 ## Mandatory Tools: 
 cctop 
@@ -59,6 +60,7 @@ python3 posprocessing_outcctop.py
 ##  Parameters used for filters
 - efficiency parameter >900 Candidates are scored from 1000 - suggested best choice to 0 - worst choice. This score takes into account the number of off-targets in the genome, their quality, i.e. number of mismatches and position with respect to the PAM, and the distance to gene exons. 
 - efficiency_CRISPRater between 0 and 1
+
 
 
 
