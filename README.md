@@ -59,7 +59,7 @@ python3 posprocessing_outcctop.py
 
 ##  Parameters used for filters
 - efficiency parameter >900 Candidates are scored from 1000 - suggested best choice to 0 - worst choice. This score takes into account the number of off-targets in the genome, their quality, i.e. number of mismatches and position with respect to the PAM, and the distance to gene exons. 
-- efficiency_CRISPRater between 0 and 1
+- efficiency_CRISPRater. CRISPRater: a 10-feature-based algorithm capable of predicting sgRNA activity via a discrete model.  low (<0.56), medium (0.56–0.74) and high (>0.74) efficacy sgRNAs.
 
 
 
