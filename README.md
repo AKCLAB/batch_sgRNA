@@ -1,7 +1,7 @@
 # batch_sgRNA
 
 Pipeline to predict sgRNAs in batch from a BED file.
-This pipeline was created with the purpose of predicting sgRNAs to assess the presence of a large number of predicted ncRNAs. The concept of prediction was based in the web-based Eukaryotic Pathogen CRISPR guide RNA/DNA Design Tool, which predict sgRNA from the ends of the genes. Our current predictions use the CCTop tool, available, and incorporates an efficiency parameter that considers the number of potential off-targets.
+This pipeline was created with the purpose of predicting sgRNAs to assess the presence of a large number of predicted ncRNAs. The concept of prediction was based in the web-based Eukaryotic Pathogen CRISPR guide RNA/DNA Design Tool, which predict sgRNA from the ends of the genes. RNA guided nuclease selection was SpCas9: gRNA length 20; 3'PAM: NGG. Our current predictions use the CCTop tool, available, and incorporates an efficiency parameter that considers the number of potential off-targets.   (--targetSize <int> (default: 20)   --pam PAM type. (default: NGG))
 
 ![Prediction model](batch_sgrna.drawio.png)
 
@@ -60,6 +60,7 @@ python3 posprocessing_outcctop.py
 ##  Parameters used for filters
 - efficiency parameter >900 Candidates are scored from 1000 - suggested best choice to 0 - worst choice. This score takes into account the number of off-targets in the genome, their quality, i.e. number of mismatches and position with respect to the PAM, and the distance to gene exons. 
 - efficiency_CRISPRater between 0 and 1
+
 
 
 
