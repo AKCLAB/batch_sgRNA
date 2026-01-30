@@ -86,6 +86,9 @@ def process_file(input_xls, position):
             bed_strand = bed_fields[5] 
             dic[bed_name] = bed_strand 
     seq1_list = []
+    hr_start = []
+    hr_end = []
+    hr_strand = []
     flank = ""
     for idx, row in df.iterrows():  
         #Cut site at the PAM sequence on the 3′ end of the guide of down target region.
@@ -98,9 +101,15 @@ def process_file(input_xls, position):
                 # extract fragments of 30 nt (adjusting for 0-based python)
             strand_sgrna = dic.get(row["name"]) 
             seq_ref = genome[chrom].seq[hr1:hr1+30]
+            s_hr = hr1+1
+            f_hr = hr1+31 
             seq1 = seq_ref.reverse_complement()
-            flank = "downstream" if strand_sgrna == "+" else "upstream" 
+            flank = "downstream" if strand_sgrna == "+" else "upstream"
+            strand_hr = "-"  #In cctop DOWN and strand gene (-) -> HR in the same strand gene (-), in In cctop DOWN and strand gene (+) -> HR in the same strand gene (-)
             seq1_list.append(str(seq1))
+            hr_start.append(str(s_hr))
+            hr_end.append(str(f_hr))
+            hr_strand.append(str(strand_hr))
         #Cut site at the PAM sequence on the 3′ end of the guide of up target region.        
         if row["position"] == "up" :
             chrom = row["Chromosome"]
@@ -110,11 +119,20 @@ def process_file(input_xls, position):
                 hr1 = int(row["start"]) + 5 
             strand_sgrna = dic.get(row["name"]) 
             # extract fragments of 30 nt (adjusting for 0-based python)
-            seq_ref = genome[chrom].seq[hr1-30:hr1]     
+            seq_ref = genome[chrom].seq[hr1-30:hr1] 
+            s_hr = hr1-30
+            f_hr = hr1    
             seq1 = seq_ref    
             flank = "upstream" if strand_sgrna == "+" else "downstream"  
+            strand_hr = "+" #In cctop UP and strand gene (+) -> HR in the same strand gene (+), in In cctop UP and strand gene (-) -> HR in the same strand gene (+)
             seq1_list.append(str(seq1))
+            hr_start.append(str(s_hr))
+            hr_end.append(str(f_hr))
+            hr_strand.append(str(strand_hr))
     df["HR"] = seq1_list #new column
+    df["hr_start"] = hr_start
+    df["hr_end"] = hr_end
+    df["hr_strand"] = hr_strand
     df["flankindg_region"] = flank
     df["start"] = df["start"].astype(int)
     df["end"] = df["end"].astype(int)
@@ -207,10 +225,9 @@ if __name__ == "__main__":
     if todos_top:
         df_final = pd.concat(todos_top)
         df_final = df_final.sort_values(by=['name', 'efficiency_CRISPRater'], ascending=[True, False])
-        colunas_em_ordem = ['Chromosome', 'name', 'target_seq', 'start', 'end', 'strand', 'PAM', 'id', 'efficiency', 'efficiency_CRISPRater', 'position', 'HR', 'flankindg_region']
+        colunas_em_ordem = ['Chromosome', 'name', 'target_seq', 'start', 'end', 'strand', 'PAM', 'id', 'efficiency', 'efficiency_CRISPRater', 'position', 'HR',"hr_start","hr_end","hr_strand", 'flankindg_region']
         df_final.to_csv(output_path, sep="\t", index=False, columns=colunas_em_ordem)
         print("We have the best sgRNAs: {}".format(output_path))
 
     else:
         print("No valid top found")
-

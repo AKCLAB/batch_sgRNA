@@ -11,6 +11,9 @@ usage() {
 }
 #bash batch_sgrna.sh -bedfile test/ncrna_teste.bed -reffasta test/LBRAZ_M2903.Dec2022.fasta -dist_chr 100 -dist_target 0 -outname targetprimer -refgff test/LBRAZ_M2903.Dec2022_noncoding.gff
 # Parse command-line arguments
+#references
+#http://www.leishgedit.net/Home.html
+#http://www.leishgedit.net/Home.html
 while [[ $# -gt 0 ]]; do
     key="$1"
     case $key in
@@ -83,7 +86,7 @@ if [ ! -d "output_cctop_final" ]; then
 fi
 
 echo "Running cctop"
-cctop --input "${outname}_initial.fasta" --index "$ref_name" --output "${path_script}/output_cctop_initial"
-cctop --input "${outname}_final.fasta" --index "$ref_name" --output "${path_script}/output_cctop_final"
+cctop --input "${outname}_initial.fasta" --index "$ref_name" --output "${path_script}/output_cctop_initial" --totalMM 3
+cctop --input "${outname}_final.fasta" --index "$ref_name" --output "${path_script}/output_cctop_final" --totalMM 3
 
 python3 "$path_script/posprocessing_outcctop.py" "$fasta" "$path_script/output_cctop_initial" "$path_script/output_cctop_final" "$path_script/cctop_listtop.tsv" "$bedfile" "$gff" 
